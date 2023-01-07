@@ -2,17 +2,28 @@
 layout: about
 title: About Me
 author: Johnathan Smith
-image: assets/images/about/author.jpg
-signature: assets/images/about/signature.png
+image: assets/images/about/이세건.jpg
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-commodo consequat.
+고등학교를 이과계열로 진학 후, 방학 동안 (주)현우산업에서 사상 아르바이트를 하며 조립 및
+설치를 했습니다. 입대 전 (주)월산 공장에서 지게차 상·하차 아르바이트를 2 개월 하였고 그 후
+남해대학교를 메카트로닉스 학부를 전공하였습니다.한 학기를 마친 후, 입대 전 (주)월산 공장에서
+지게차 상·하차 아르바이트를 2 개월 하였고 2012 년 입대를 하게 되었고 2014 년 제대 후
+2017 년까지 공무원 준비를 하였으며, 그 해 12 월 (주)NEK MOLD 공정 mechanical seal 공정에
+취업하였고, 생산, 기계 설비 수리, 금형 교환 등 맡은 직무에 책임감을 느끼고 최선을
+다했습니다. 
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-Excepteur sint occaecat cupidatat non proident.
+2019 년 (주)NEK 계약직이 만료가 되어 자격증 취득준비를 하며 구직 활동을
+계속하였고 2020 년 5 월에 (주)DY C&F 에 생산관리팀으로 1 년간 근무를 하였습니다. 이후
+2020 년 6 월에 (주)경남 지오영에서 자재 관리팀에서 1년간 근무하고 회사를 그만두기 6 개월 전부터 공부를 병행하며 앞으로 배워야할 내용들을 확인하고 Java python
+oracleDB html css javascript 을 독학하였습니다. 첫 시작은 이해가 되지 않는 부분이 많이
+있었지만 회독과 반복학습을 통해 숙달하면서 여러운 부분과 친해지고자 노력했습니다.
 
-Deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.
+
+KH 정보교육원에 들어가기 전 python 을 활용한 자동매매 프로그램을 만들어 실행해보았고 java 를
+이용해 알고리즘을 학습하였으며 알고리즘 공부는 지금까지 하고 있습니다. 학원에서는 어려운
+부분이 있으면 선생님께 질문과 자습을 통해 해결해 나갔습니다. JSP 과정 중 페이징 , 파일 첨부 , 
+검색 , 댓글 기능을 구현하는 부분에서 특히 어려움을 겪었고 그 과정에서는 수업시간에 배운
+내용을 토대로 처음에는 수업때 했던 내용과 같은 코드를 작성하며 이해하기 힘든 점에 대해
+조금더 많은 관심을 주었고 더 나아가 인터넷 검색을 활용하여 다르게 작성한 코드도 활용하면서
+숙달 시켰습니다
