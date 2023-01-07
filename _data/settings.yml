@@ -76,11 +76,11 @@ blog-btn-link: "/blog"
 
 skills-title: Skills
 skills:
-  - { name: Language 80%, color: "#fdb157", value: "80%" }
-  - { name: FrontEnd 70%, color: "#9473e6", value: "70%" }
-  - { name: BackEnd 80%, color: "#bdecf6", value: "80%" }
-  - { name: DataBase(DB) 60%, color: "#ffffa6", value: "60%" }
-  - { name: Tool 80%, color: "tomato", value: "80%" }
+  - { name: Language, color: "#fdb157", value: "80%" }
+  - { name: FrontEnd, color: "#9473e6", value: "70%" }
+  - { name: BackEnd, color: "#bdecf6", value: "80%" }
+  - { name: DataBase(DB), color: "#ffffa6", value: "60%" }
+  - { name: Tool, color: "tomato", value: "80%" }
 
 #-------------------------------
 # Exprerience Section
