@@ -36,7 +36,7 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: 안녕하십니까! <br> 신입 개발자 <br> 이세건입니다.
+  hero-title: Hi! I’m <br> Christoher <br> UX designer
 
 social:
   - { icon: "ti-facebook", link: "#" }
@@ -48,7 +48,7 @@ social:
 # About (Section and Page)
 
 # About Section
-blurb: 어려운 난관에 맞닥뜨려도 해결할 때 까지 놓지않는 신입 개발자 이세건입니다. 끊임없이 노력하는 개발자가 되겠습니다.<br> 어느 곳에 가더라도 함꼐하는 개발자가 되겠습니다.
+blurb: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 
 blurb-btn-link: "/about"
 blurb-btn-name: know more
@@ -88,13 +88,10 @@ team:
 
 skills-title: Skills
 skills:
-  - { name: java, color: "#fdb157", value: "80%" }
-  - { name: oracle, color: "#9473e6", value: "60%" }
-  - { name: css html javascript, color: "#bdecf6", value: "80%" }
-  - { name: spring, color: "#ffbcaa", value: "70%" }
-  - { name: spring, color: "#ffbcaa", value: "65%" }
-  - { name: spring, color: "#ffbcaa", value: "30%" }
-  - { name: spring, color: "#ffbcaa", value: "75%" }
+  - { name: Web Design, color: "#fdb157", value: "90%" }
+  - { name: Logo Design, color: "#9473e6", value: "60%" }
+  - { name: After Effects, color: "#bdecf6", value: "80%" }
+  - { name: Web App, color: "#ffbcaa", value: "70%" }
 
 #-------------------------------
 # Exprerience Section
