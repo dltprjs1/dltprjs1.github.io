@@ -13,7 +13,7 @@ copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.c
 
 menu:
   - { name: About, link: "/about" }
-  - { name: Blog, link: "/blog" }
+  - { name: skills, link: "/blog" }
   - { name: Portfolio, link: "/portfolio" }
   - { name: Contact, link: "/contact" }
 
@@ -36,7 +36,7 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: 맡은 직무에 책임감을 가지고<br> 충실히 임하는 개발자 <br> 이세건입니다.
+  hero-title: 책임감을 가지고<br> 충실히 임하는 <br> 개발자 이세건입니다.
 
 social:
   - { icon: "ti-facebook", link: "#" }
@@ -72,15 +72,15 @@ work-process:
 #-------------------------------
 # Skills Section
 
+blog-btn-link: "/blog"
+
 skills-title: Skills
 skills:
-  - { name: java, color: "#fdb157", value: "80%" }
-  - { name: oracle, color: "#9473e6", value: "60%" }
-  - { name: css, color: "#bdecf6", value: "80%" }
-  - { name: html, color: "#ffffa6", value: "80%" }
-  - { name: javascript, color: "#ffd400", value: "70%" }
-  - { name: spring, color: "#9dd84b", value: "70%" }
-  - { name: python, color: "tomato", value: "50%" }
+  - { name: Language 80%, color: "#fdb157", value: "80%" }
+  - { name: FrontEnd 70%, color: "#9473e6", value: "70%" }
+  - { name: BackEnd 80%, color: "#bdecf6", value: "80%" }
+  - { name: DataBase(DB) 60%, color: "#ffffa6", value: "60%" }
+  - { name: Tool 80%, color: "tomato", value: "80%" }
 
 #-------------------------------
 # Exprerience Section

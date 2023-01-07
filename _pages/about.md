@@ -1,7 +1,6 @@
 ---
 layout: about
 title: About Me
-author: Johnathan Smith
 image: assets/images/about/이세건.jpg
 ---
 
