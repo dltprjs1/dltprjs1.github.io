@@ -68,15 +68,54 @@ work-process:
 # skills-blog Section
 Language-process:
   - title: "Java"
-    icon: "assets/images/experience/icon-1.png"
+    icon: "assets/images/skills/java.png"
 
   - title: "Python"
-    icon: "assets/images/experience/icon-2.png"
+    icon: "assets/images/skills/python.png"
 
   - title: "SQL"
-    icon: "assets/images/experience/icon-3.png"
+    icon: "assets/images/skills/sql.png"
 
+FrontEnd-process:
+  - title: "HTML5"
+    icon: "assets/images/skills/html5.png"
 
+  - title: "CSS"
+    icon: "assets/images/skills/css.png"
+
+  - title: "JavaScript(Jquery)"
+    icon: "assets/images/skills/js.png"
+
+  - title: "BootStrap"
+    icon: "assets/images/skills/bootstrap.png"
+
+BackEnd-process:
+  - title: "Spring"
+    icon: "assets/images/skills/spring.png"
+
+  - title: "JSP/JSTL"
+    icon: "assets/images/skills/jsp.png"
+
+DataBase-process:
+  - title: "Oracle"
+    icon: "assets/images/skills/oracle.png"
+
+  - title: "MyBatis"
+    icon: "assets/images/skills/mybatis.png"
+
+Tool-process:
+  - title: "Eclipse"
+    icon: "assets/images/skills/eclipse.png"
+
+  - title: "STS(Spring-Tool-Suite)"
+    icon: "assets/images/skills/spring.png"
+
+  - title: "Visual Studio Code"
+    icon: "assets/images/skills/vscode.png"
+
+  - title: "GitHub"
+    icon: "assets/images/skills/github.png"
+    
 #-------------------------------
 # Skills Section
 
