@@ -58,15 +58,15 @@ blurb-btn-name: know more
 work-process:
   - title: "(주)경남지오영"
     icon: "assets/images/experience/icon-1.png"
-    content: "자재관리 , 2021.05 - 2022.06"
+    content: "자재관리 <br> 2021.05 - 2022.06"
 
   - title: "(주)DY C&F"
     icon: "assets/images/experience/icon-2.png"
-    content: "생산관리 , 2020.04 - 2021.04"
+    content: "생산관리 <br> 2020.04 - 2021.04"
 
   - title: "(주)NEK"
     icon: "assets/images/experience/icon-3.png"
-    content: "생산 기계 설비 수리 금형 교환 , 2017.12 - 2019.12"
+    content: "생산 기계 설비 수리 금형 교환 <br> 2017.12 - 2019.12"
 
 # My Team Section
 team:
