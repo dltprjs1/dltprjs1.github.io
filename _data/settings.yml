@@ -65,6 +65,19 @@ work-process:
 
 
 #-------------------------------
+# skills-blog Section
+Language-process:
+  - title: "Java"
+    icon: "assets/images/experience/icon-1.png"
+
+  - title: "Python"
+    icon: "assets/images/experience/icon-2.png"
+
+  - title: "SQL"
+    icon: "assets/images/experience/icon-3.png"
+
+
+#-------------------------------
 # Skills Section
 
 blog-btn-link: "/blog"

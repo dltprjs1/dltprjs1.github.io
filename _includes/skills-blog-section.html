@@ -1,0 +1,20 @@
+{% if site.data.settings.Language-process %}
+<!-- Work Process -->
+<section class="section">
+  <div class="container">
+    <div class="row justify-content-around">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-title">Language</h2>
+      </div>
+      {% for work in site.data.settings.Language-process %}
+      <div class="col-lg-3 col-md-4 text-center hover-shadow pt-3">
+        <img src="{{ Language.icon | relative_url }}" class="mb-4" alt="icon">
+        <h4 class="mb-4">{{ Language.title }}</h4>
+        <p>{{ Language.content | markdownify }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<!-- ./Work Process -->
+{% endif %}
