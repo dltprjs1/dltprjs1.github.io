@@ -10,7 +10,70 @@
       <div class="col-lg-3 col-md-4 text-center hover-shadow pt-3">
         <img src="{{ Language.icon | relative_url }}" class="mb-4" alt="icon">
         <h4 class="mb-4">{{ Language.title }}</h4>
-        <p>{{ Language.content | markdownify }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="row justify-content-around">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-title">FrontEnd</h2>
+      </div>
+      {% for FrontEnd in site.data.settings.FrontEnd-process %}
+      <div class="col-lg-3 col-md-4 text-center hover-shadow pt-3">
+        <img src="{{ FrontEnd.icon | relative_url }}" class="mb-4" alt="icon">
+        <h4 class="mb-4">{{ FrontEnd.title }}</h4>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="row justify-content-around">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-title">BackEnd</h2>
+      </div>
+      {% for BackEnd in site.data.settings.BackEnd-process %}
+      <div class="col-lg-3 col-md-4 text-center hover-shadow pt-3">
+        <img src="{{ BackEnd.icon | relative_url }}" class="mb-4" alt="icon">
+        <h4 class="mb-4">{{ BackEnd.title }}</h4>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="row justify-content-around">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-title">DataBase</h2>
+      </div>
+      {% for DataBase in site.data.settings.DataBase-process %}
+      <div class="col-lg-3 col-md-4 text-center hover-shadow pt-3">
+        <img src="{{ DataBase.icon | relative_url }}" class="mb-4" alt="icon">
+        <h4 class="mb-4">{{ DataBase.title }}</h4>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="row justify-content-around">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-title">Tool</h2>
+      </div>
+      {% for Tool in site.data.settings.Tool-process %}
+      <div class="col-lg-3 col-md-4 text-center hover-shadow pt-3">
+        <img src="{{ Tool.icon | relative_url }}" class="mb-4" alt="icon">
+        <h4 class="mb-4">{{ Tool.title }}</h4>
       </div>
       {% endfor %}
     </div>
