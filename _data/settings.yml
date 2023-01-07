@@ -28,11 +28,6 @@ menu:
 google-analytics: # UA-XXXXXX-X
 
 #-------------------------------
-# Comment Section (Disqus)
-
-disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
-
-#-------------------------------
 # Hero Section
 
 hero:
@@ -67,6 +62,19 @@ work-process:
   - title: "(주)NEK"
     icon: "assets/images/experience/icon-3.png"
     content: "생산 기계 설비 수리 금형 교환 <br> 2017.12 - 2019.12"
+
+
+#-------------------------------
+# skills-blog Section
+Language-process:
+  - title: "Java"
+    icon: "assets/images/experience/icon-1.png"
+
+  - title: "Python"
+    icon: "assets/images/experience/icon-2.png"
+
+  - title: "SQL"
+    icon: "assets/images/experience/icon-3.png"
 
 
 #-------------------------------
