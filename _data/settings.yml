@@ -36,7 +36,7 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: 안녕하십니까! <br> 신입 개발자 <br> 이세건입니다.
+  hero-title: 맡은 직무에 책임감을 가지고<br> 충실히 임하는 개발자 <br> 이세건입니다.
 
 social:
   - { icon: "ti-facebook", link: "#" }
@@ -47,7 +47,7 @@ social:
 # About (Section and Page)
 
 # About Section
-blurb: 어려운 난관에 맞닥뜨려도 해결할 때 까지 놓지않는 신입 개발자 이세건입니다. <br> 끊임없이 노력하는 개발자가 되겠습니다.<br> 어느 곳에 가더라도 함께하는 개발자가 되겠습니다.
+blurb: 어려운 난관에 맞닥뜨려도 해결할 때까지 놓지 않는 신입 개발자 이세건입니다. <br> 끊임없이 노력하는 개발자가 되겠습니다.<br> 어느 곳에 가더라도 함께하는 개발자가 되겠습니다.
 
 blurb-btn-link: "/about"
 blurb-btn-name: know more
@@ -68,19 +68,6 @@ work-process:
     icon: "assets/images/experience/icon-3.png"
     content: "생산 기계 설비 수리 금형 교환 <br> 2017.12 - 2019.12"
 
-# My Team Section
-team:
-  - title: "Jack Schenziwe"
-    image: "assets/images/team/member-1.png"
-    designation: "Project Manager"
-
-  - title: "Julias Carlie"
-    image: "assets/images/team/member-2.png"
-    designation: "Web Developer"
-
-  - title: "John Doe"
-    image: "assets/images/team/member-3.png"
-    designation: "Designer"
 
 #-------------------------------
 # Skills Section
@@ -125,24 +112,19 @@ experience:
 education-title: Education
 education:
   - {
-      name: Marters in UX Design,
-      date: "2006",
-      organization: "Masassusets Institute of Technology",
+      name: 칠원고등학교,
+      date: "2009.3 - 2012.2",
+      organization: "이과계열",
     }
   - {
-      name: Honours in Fine Arts,
-      date: "2004",
-      organization: "Harvard University",
+      name: 경남도립 남해대학교,
+      date: "2012.3 - 2014.6",
+      organization: "메카트로닉스과",
     }
   - {
-      name: Higher Secondary Certificat,
-      date: "2000",
-      organization: "Cardiff School",
-    }
-  - {
-      name: Secondary School Certificate,
-      date: "1998",
-      organization: "Cardiff School",
+      name: KH정보교육원,
+      date: "2021.7 - 2022.12",
+      organization: "(스마트웹&콘텐츠개발)스마트웹&콘텐츠 웹애플리케이션 개발자 양성과정",
     }
 
 #-------------------------------
@@ -263,40 +245,6 @@ testimonial-items:
     image: "assets/images/testimonial/client-1.png"
     designation: "CEO, Funder"
     content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-
-#-------------------------------
-# Client Slider Section
-
-client-slider-items:
-  - logo: "assets/images/clients-logo/client-logo-1.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-2.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-3.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-4.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-5.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-1.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-2.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-3.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-4.png"
-    url: "#"
-
-  - logo: "assets/images/clients-logo/client-logo-5.png"
-    url: "#"
 
 #-------------------------------
 # Contact Section
