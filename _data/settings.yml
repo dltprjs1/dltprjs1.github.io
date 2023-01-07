@@ -80,7 +80,6 @@ skills:
   - { name: FrontEnd, color: "#9473e6", value: "70%" }
   - { name: BackEnd, color: "#bdecf6", value: "80%" }
   - { name: DataBase(DB), color: "#ffffa6", value: "60%" }
-  - { name: Tool, color: "tomato", value: "80%" }
 
 #-------------------------------
 # Exprerience Section
