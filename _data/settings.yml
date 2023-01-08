@@ -156,7 +156,7 @@ portfolio-items:
   url: '#'
   portfolio-type:
   - type: illustration
-  
+
 testimonial-items:
 - image: assets/images/portfolio/challengers/관리자메인.png
   content: 제가 맡은 기능은 관리자 페이지입니다. <br> 관리자 메인페이지에는 총 6개의 카테고리로 나뉘어져 있습니다. 상단에는 include를 통해 관리자 모든 페이지에 위와 같이 로고 , 관리자 홈 , 회원 신고 관리 , 카테고리 관리 , 자주하는 질문 관리 , 1:1문의 관리로 이동이 가능하고 메인에는 총 6개로 상단의 페이지를 포함하여 챌린지 관리 , 관리자 권한 챌린지 만들기 페이지로 나뉩니다.
@@ -188,6 +188,33 @@ challnegers-process:
 - icon: assets/images/skills/jsp.png
 - icon: assets/images/skills/oracle.png
 - icon: assets/images/skills/eclipse.png
+- icon: assets/images/skills/github.png 
+
+
+
+testimonial2-items:
+- image: assets/images/portfolio/cowork/프로젝트관리.png
+  content: 제가 맡은 기능은 프로젝트 페이지 입니다. <br> 프로젝트 메인 페이지는 상단에 include를 이용하여 캘린더 , 프로젝트 , 메모 , 주소록 , 메일 , 채팅창으로 이동이 가능하고 좌측에는 table형식 보기 버튼과 Status와 Member 필터링 기능이 있습니다.
+  
+- image: assets/images/portfolio/cowork/프로젝트Drag.png
+  content: 프로젝트 페이지 기능 입니다. <br> Jquery에서 제공하는 sortable 함수와 option으로는 handle , connectwith , start , update , receive를 이용하여 하나의 프로젝트를 이동할 경우 ajax를 이용하여 status의 프로젝트가 업데이트 되도록 하였습니다. 가장 우측으로는 status 추가 기능이 있고 , status 아래 부분에는 프로젝트 추가기능이 있습니다.   
+
+- image: assets/images/portfolio/cowork/프로젝트Modal.png
+  content: 프로젝트를 클릭하였을때 생성되는 상세보기 모달 페이지입니다. <br> 모든 기능은 ajax를 활용하였고 최상단에 프로젝트 , 상단에 Member 구성이 있습니다 member는 popover를 이용하여 해당 멤버의 정보를 보거나 프로젝트로부터 제외시킬 수 있고 '+'버튼을 클릭하여 멤버를 추가할 수 있습니다. member구성 아래에 프로젝트의 상세내용을 추가 하거나 수정할 수 있고 댓글을 달거나 수정 삭제할 수 있습니다. 우측에는 프로젝트 시작일과 마감일을 date picker API를 활용하여 추가 수정이 가능하고 모달창에서 Status 변경이 가능합니다.
+
+- image: assets/images/portfolio/cowork/프로젝트테이블.png
+  content: 프로젝트를 Table 형식으로 나타내는 페이지입니다. 상단에는 프로젝트와 멤버를 검색할 수 있고 좌측에는 Status별로 프로젝트 목록을 확인 할 수 있습니다. 하단에는 페이징과 프로젝트 추가하기 기능이있습니다. 해당 프로젝트를 클릭할 경우 Modal창을 띄울 수 있습니다.  
+ 
+cowork-process:
+- icon: assets/images/skills/java.png
+- icon: assets/images/skills/html5.png
+- icon: assets/images/skills/css.png
+- icon: assets/images/skills/js.png
+- icon: assets/images/skills/bootstrap.png
+- icon: assets/images/skills/spring.png
+- icon: assets/images/skills/oracle.png
+- icon: assets/images/skills/mybatis.png
+- icon: assets/images/skills/spring.png
 - icon: assets/images/skills/github.png 
 
 contact-title: Contact Info

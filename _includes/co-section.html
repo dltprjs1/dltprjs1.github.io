@@ -1,10 +1,19 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-</head>
-<body>
-2
-</body>
-</html>
+<section class="section">
+  <div class="container">
+    <div class="row justify-content-around">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-title">Cowork</h2>
+      </div>
+      <div class="col-lg-10 mx-auto testimonial-slider">
+        {% for testimonial2-item in site.data.settings.testimonial2-items %}
+        <!-- slider-item -->
+        <div class="text-center testimonial-content">
+          <img class="img-fluid mb-4 d-inline-block" src="{{ testimonial2-item.image | relative_url }}"
+            alt="{{ testimonial2-item.name }}">
+          <p class="mb-4">{{ testimonial2-item.content }}</p>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
