@@ -129,7 +129,7 @@ services:
   active: null
 portfolio-home-items:
 - image: assets/images/portfolio/challengers.png
-  url: '#'
+  url: '/page/portfolio_detail.html'
 - image: assets/images/portfolio/cowork.png
   url: '#'
 - image: assets/images/portfolio/item-3.png
