@@ -15,8 +15,6 @@ menu:
   link: /portfolio
 - name: Contact
   link: /contact
-- name: Protfolio_detail
-  link: /portfolio_detail
 google-analytics: null
 hero:
   hero-title: 책임감을 가지고<br> 충실히 임하는 <br> 개발자 이세건입니다.
@@ -131,15 +129,15 @@ services:
   active: null
 portfolio-home-items:
 - image: assets/images/portfolio/challengers.png
-  url: '/_pages/portfolio_detail'
+  url: '/portfolio_detail'
 - image: assets/images/portfolio/cowork.png
   url: '/portfolio_detail'
 - image: assets/images/portfolio/item-3.png
-  url: '/portfolio_detail.html'
+  url: '/portfolio_detail'
 - image: assets/images/portfolio/item-4.png
   url: '/portfolio_detail'
 - image: assets/images/portfolio/item-5.png
-  url: '#'
+  url: '/portfolio_detail'
 
 portfolio-label:
 - title: JSP
@@ -150,7 +148,7 @@ portfolio-label:
   type: illustration
 portfolio-items:
 - image: assets/images/portfolio/challengers.png
-  url: '/portfolio_detail.html'
+  url: '/portfolio_detail'
   portfolio-type:
   - type: 관리자 페이지 전체 담당
   - type: JSP , HTML5 , CSS , OracleDB , BootStrap , JavaScript(Jquery) , github , notion , Discord
@@ -159,7 +157,7 @@ portfolio-items:
   portfolio-type:
   - type: 프로젝트 관리 페이지 담당
 - image: assets/images/portfolio/item-3.png
-  url: '/portfolio_detail.html'
+  url: '/portfolio_detail'
   portfolio-type:
   - type: illustration
 - image: assets/images/portfolio/item-6.png
@@ -168,9 +166,10 @@ portfolio-items:
   - type: design
   - type: branding
 - image: assets/images/portfolio/item-8.png
-  url: '#'
+  url: '/portfolio_detail'
   portfolio-type:
   - type: illustration
+  
 testimonial-items:
 - name: Jesica Gomez
   image: assets/images/testimonial/client-1.png
