@@ -113,20 +113,7 @@ education:
 - name: 칠원고등학교
   date: 2009.3 - 2012.2
   organization: 이과계열
-services-title: Services
-services:
-- name: UI Design
-  icon: ti-palette
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  active: null
-- name: UX Design
-  icon: ti-vector
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  active: true
-- name: Interaction Design
-  icon: ti-panel
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  active: null
+
 portfolio-home-items:
 - image: assets/images/portfolio/challengers.png
   url: '/portfolio_detail'
@@ -146,31 +133,32 @@ portfolio-label:
   type: branding
 - title: PYTHON
   type: illustration
+  
 portfolio-items:
 - image: assets/images/portfolio/challengers.png
-  url: '/portfolio_detail'
+  url: '/portfolio_Challengers'
   portfolio-type:
   - type: 관리자 페이지 전체 담당
   - type: JSP , HTML5 , CSS , OracleDB , BootStrap , JavaScript(Jquery) , github , notion , Discord
 - image: assets/images/portfolio/cowork.png
-  url: '/portfolio_detail'
+  url: '/portfolio_Cowork'
   portfolio-type:
   - type: 프로젝트 관리 페이지 담당
 - image: assets/images/portfolio/item-3.png
-  url: '/portfolio_detail'
+  url: '#'
   portfolio-type:
   - type: illustration
 - image: assets/images/portfolio/item-6.png
-  url: '/portfolio_detail'
+  url: '#'
   portfolio-type:
   - type: design
   - type: branding
 - image: assets/images/portfolio/item-8.png
-  url: '/portfolio_detail'
+  url: '#'
   portfolio-type:
   - type: illustration
   
-testimonial-items:
+challengers-items:
 - image: assets/images/portfolio/challengers/관리자메인.png
   content: 제가 맡은 기능은 관리자 페이지입니다. <br> 관리자 메인페이지에는 총 6개의 카테고리로 나뉘어져 있습니다. 상단에는 include를 통해 관리자 모든 페이지에 위와 같이 로고 , 관리자 홈 , 회원 신고 관리 , 카테고리 관리 , 자주하는 질문 관리 , 1:1문의 관리로 이동이 가능하고 메인에는 총 6개로 상단의 페이지를 포함하여 챌린지 관리 , 관리잔 권한 챌린지 만들기 페이지로 나뉩니다.
   
