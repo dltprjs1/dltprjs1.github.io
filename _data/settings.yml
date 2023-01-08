@@ -158,9 +158,10 @@ experience:
 education-title: Education
 education:
   - {
-      name: 칠원고등학교,
-      date: "2009.3 - 2012.2",
-      organization: "이과계열",
+      name: KH정보교육원,
+      date: "2021.7 - 2022.12",
+      organization: "(스마트웹&콘텐츠개발)스마트웹&콘텐츠 웹애플리케이션 개발자 양성과정",
+      
     }
   - {
       name: 경남도립 남해대학교,
@@ -168,9 +169,9 @@ education:
       organization: "메카트로닉스과",
     }
   - {
-      name: KH정보교육원,
-      date: "2021.7 - 2022.12",
-      organization: "(스마트웹&콘텐츠개발)스마트웹&콘텐츠 웹애플리케이션 개발자 양성과정",
+      name: 칠원고등학교,
+      date: "2009.3 - 2012.2",
+      organization: "이과계열",
     }
 
 #-------------------------------
