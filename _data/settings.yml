@@ -128,34 +128,32 @@ portfolio-home-items:
 
 portfolio-label:
 - title: JSP
-  type: design
+  type: JSP
 - title: SPRING
-  type: branding
+  type: SPRING
 - title: PYTHON
-  type: illustration
+  type: PYTHON
 portfolio-items:
 - image: assets/images/portfolio/challengers.png
   url: '/challengers'
   portfolio-type:
-  - type: 관리자 페이지 전체 담당
-  - type: JSP , HTML5 , CSS , OracleDB , BootStrap , JavaScript(Jquery) , github , notion , Discord
+  - type: JSP
 - image: assets/images/portfolio/cowork.png
   url: '/cowork'
   portfolio-type:
-  - type: 프로젝트 관리 페이지 담당
+  - type: SPRING
 - image: assets/images/portfolio/item-3.png
   url: '#'
   portfolio-type:
-  - type: illustration
+  - type: PYTHON
 - image: assets/images/portfolio/item-6.png
   url: '#'
   portfolio-type:
-  - type: design
-  - type: branding
+  - type:
 - image: assets/images/portfolio/item-8.png
   url: '#'
   portfolio-type:
-  - type: illustration
+  - type:
 
 testimonial-items:
 - image: assets/images/portfolio/challengers/관리자메인.png
