@@ -171,17 +171,29 @@ portfolio-items:
   - type: illustration
   
 testimonial-items:
-- name: Jesica Gomez
-  image: assets/images/testimonial/client-1.png
-  designation: CEO, Funder
-  content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-- name: Jesica Gomez
-  image: assets/images/testimonial/client-1.png
-  designation: CEO, Funder
-  content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-- name: Jesica Gomez
-  image: assets/images/testimonial/client-1.png
-  designation: CEO, Funder
-  content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+- image: assets/images/portfolio/challengers/관리자메인.png
+  content: 제가 맡은 기능은 관리자 페이지입니다. <br> 관리자 메인페이지에는 총 6개의 카테고리로 나뉘어져 있습니다. 상단에는 include를 통해 관리자 모든 페이지에 위와 같이 로고 , 관리자 홈 , 회원 신고 관리 , 카테고리 관리 , 자주하는 질문 관리 , 1:1문의 관리로 이동이 가능하고 메인에는 총 6개로 상단의 페이지를 포함하여 챌린지 관리 , 관리잔 권한 챌린지 만들기 페이지로 나뉩니다.
+  
+- image: assets/images/portfolio/challengers/회원신고관리.png
+  content: 회원 신고 관리 페이지 입니다. <br> 메인에는 테이블 형식으로 회원 신고 목록을 볼 수 있으며 상단에는 검색 하단에는 페이징 처리가 되어있습니다. ajax를 활용하여 피신고자 , 신고자 , 제목을 통해 검색 할 수 있으며 페이징 처리 또한 ajax를 활용하였습니다. 목록을 클릭하여 회원을 회원삭제 또는 회원 정지 기능이 있습니다.  
+
+- image: assets/images/portfolio/challengers/카테고리관리.png
+  content: 카테고리 관리 페이지 입니다. <br> 메인 카테고리 총 9개로 이루어져 있고, 클릭하여 상세 페이지로 들어가면 카테고리 수정 , 삭제 기능이 있고 서브 카테고리 추가 , 수정 , 삭제 기능이 있습니다.
+
+- image: assets/images/portfolio/challengers/자주하는질문관리.png
+  content: 해당 페이지는 자주하는 질문 관리 페이지입니다. <br> 회원 신고 관리 페이지와 마찬가지로 상단에는 검색과 네 개의 카테고리가 있고 하단에는 페이징 처리가 되어있으며 중단에는 자주하는 질문 목록들이 나열되어있습니다. 검색과 페이징은 ajax를 통해 기능하며 목록을 클릭하여 상세보기 페이지로 이동하게 되면 추가 , 수정 , 삭제 기능이 있습니다.
+
+- image: assets/images/portfolio/challengers/일대일문의관리.png
+  content: 1:1문의 관리 페이지입니다. <br> 프로젝트 당시 관리자 페이지는 디자인 보다는 일관성이 있고 UI/UX의 편리성과 친절성이 중요하다고 생각하여 전체적으로 일관성이 있게 디자인 하였습니다. 질문 목록을 클릭하여 상세보기 페이지로 이동하게 되면 회원에게 답변을 하고 회원은 메인 include에 메일 이모티콘과 답변의 갯수가 생섭됩니다.   
+
+- image: assets/images/portfolio/challengers/일대일문의관리2.png
+  content: 관리자가 답변을 할 경우 위와 같이 알림 이모티콘과 알림 갯수가 나타납니다.
+
+- image: assets/images/portfolio/challengers/챌린지관리.png
+  content: 챌린지관리 페이지입니다. <br> 회원 페이지에서 챌린지를 생성하거나 관리자권한으로 챌린지를 생성한 모든 챌린지를 9개의 카테고리로 나타냅니다. 다른 기능들과 마찬가지로 상단에는 검색과 카테고리목록 하단에는 페이징 처리가 되어있으며 한 페이지에 12개의 챌린지로 나뉘어 있습니다. 해당 챌린지를 클릭하여 상세보기 페이지로 이동하게 되면, 챌린지의 모든 설정들을 변경할 수 있습니다.
+  
+- image: assets/images/portfolio/challengers/챌린지개설.png
+  content: 관리자 챌린지개설 페이지입니다. <br> 챌린지 개설은 총 5단계로 이루어져 있습니다. <br> 1.세 개의 채크박스를 클릭하여 다음 단계로 넘어 갑니다. <br> 2.다른 회원들에게 챌린지의 공개 유무를 결정합니다. <br> 3.챌린지의 제목 , 인증 방법 , 인증 빈도 , 기간을 정하고 예시 사진을 확인 후 다음 페이지로 넘어 갈 수 있습니다. <br> 4.인증가능 시간과 챌린지 소개 , 소개 사진을 작성 후 마지막 단계로 이동합니다. <br>5.예치금과 비공개 참여 코드 , 최대인원 설정후 챌린지를 개설할 수 있습니다.  
+  
 contact-title: Contact Info
 contact-email: steve.fruits@email.com
