@@ -5,12 +5,12 @@
         <h2 class="section-title">Challnegers</h2>
       </div>
       <div class="col-lg-10 mx-auto testimonial-slider">
-        {% for challengers-item in site.data.settings.challengers-items %}
+        {% for testimonial-item in site.data.settings.testimonial-items %}
         <!-- slider-item -->
         <div class="text-center testimonial-content">
-          <img class="img-fluid mb-4 d-inline-block" src="{{ challengers-item.image | relative_url }}"
-            alt="{{ challengers-item.name }}">
-          <p class="mb-4">{{ challengers-item.content }}</p>
+          <img class="img-fluid mb-4 d-inline-block" src="{{ testimonial-item.image | relative_url }}"
+            alt="{{ testimonial-item.name }}">
+          <p class="mb-4">{{ testimonial-item.content }}</p>
         </div>
         {% endfor %}
       </div>
