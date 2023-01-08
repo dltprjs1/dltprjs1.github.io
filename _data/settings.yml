@@ -148,7 +148,7 @@ portfolio-label:
   type: illustration
 portfolio-items:
 - image: assets/images/portfolio/challengers.png
-  url: '#'
+  url: '/page/portfolio_detail.html'
   portfolio-type:
   - type: 관리자 페이지 전체 담당
   - type: JSP , HTML5 , CSS , OracleDB , BootStrap , JavaScript(Jquery) , github , notion , Discord
