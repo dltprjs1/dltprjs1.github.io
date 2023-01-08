@@ -225,14 +225,14 @@ a:hover {
     margin: 2px;
     &.slick-active{
       button{
-        background: $white;
+        background: $black;
         width: 25px;
       }
     }
     button{
       height: 6px;
       width: 12px;
-      background: rgba($color: $white, $alpha: .5);
+      background: gray;
       color: transparent;
       border-radius: 10px;
       overflow: hidden;
