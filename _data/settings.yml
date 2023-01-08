@@ -15,6 +15,8 @@ menu:
   link: /portfolio
 - name: Contact
   link: /contact
+- name: Protfolio_detail
+  link: /Portfolio_detail
 google-analytics: null
 hero:
   hero-title: 책임감을 가지고<br> 충실히 임하는 <br> 개발자 이세건입니다.
@@ -153,11 +155,11 @@ portfolio-items:
   - type: 관리자 페이지 전체 담당
   - type: JSP , HTML5 , CSS , OracleDB , BootStrap , JavaScript(Jquery) , github , notion , Discord
 - image: assets/images/portfolio/cowork.png
-  url: '#'
+  url: '/portfolio_detail'
   portfolio-type:
   - type: 프로젝트 관리 페이지 담당
 - image: assets/images/portfolio/item-3.png
-  url: '#'
+  url: '/portfolio_detail.html'
   portfolio-type:
   - type: illustration
 - image: assets/images/portfolio/item-6.png
