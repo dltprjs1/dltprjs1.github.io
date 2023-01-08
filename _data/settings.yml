@@ -1,300 +1,202 @@
----
-#-------------------------------
-# General Site Settings
-
 title: Lee Se Geon
-logo:
+logo: null
 author: themefisher
 description: this is meta description
 email: dltprjs1@naver.com
 phone: 010 - 7724 - 7848
 address: 서울특별시 동대문구 휘경동
 copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
-
 menu:
-  - { name: About, link: "/about" }
-  - { name: skills, link: "/blog" }
-  - { name: Portfolio, link: "/portfolio" }
-  - { name: Contact, link: "/contact" }
-
-#-------------------------------
-# Google Analytics Section
-
-# Analytics helps you understand who visits your website.
-# Learn more at: http://support.google.com/analytics/answer/1008065
-
-# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
-
-google-analytics: # UA-XXXXXX-X
-
-#-------------------------------
-# Hero Section
-
+- name: About
+  link: /about
+- name: skills
+  link: /blog
+- name: Portfolio
+  link: /portfolio
+- name: Contact
+  link: /contact
+google-analytics: null
 hero:
   hero-title: 책임감을 가지고<br> 충실히 임하는 <br> 개발자 이세건입니다.
-
 social:
-  - { icon: "ti-facebook", link: "#" }
-  - { icon: "ti-instagram", link: "https://www.instagram.com/?next=%2F" }
-  - { icon: "ti-github", link: "https://github.com/dltprjs1" }
-
-#-------------------------------
-# About (Section and Page)
-
-# About Section
+- icon: ti-facebook
+  link: '#'
+- icon: ti-instagram
+  link: https://www.instagram.com/?next=%2F
+- icon: ti-github
+  link: https://github.com/dltprjs1
 blurb: 어려운 난관에 맞닥뜨려도 해결할 때까지 놓지 않는 신입 개발자 이세건입니다. <br> 끊임없이 노력하는 개발자가 되겠습니다.<br> 어느 곳에 가더라도 함께하는 개발자가 되겠습니다.
-
-blurb-btn-link: "/about"
+blurb-btn-link: /about
 blurb-btn-name: know more
-
-# About Page
-
-# Work Process Section
 work-process:
-  - title: "(주)경남지오영"
-    icon: "assets/images/experience/icon-1.png"
-    content: "자재관리 <br> 2021.05 - 2022.06"
-
-  - title: "(주)DY C&F"
-    icon: "assets/images/experience/icon-2.png"
-    content: "생산관리 <br> 2020.04 - 2021.04"
-
-  - title: "(주)NEK"
-    icon: "assets/images/experience/icon-3.png"
-    content: "생산 기계 설비 수리 금형 교환 <br> 2017.12 - 2019.12"
-
-
-#-------------------------------
-# skills-blog Section
+- title: (주)경남지오영
+  icon: assets/images/experience/icon-1.png
+  content: 자재관리 <br> 2021.05 - 2022.06
+- title: (주)DY C&F
+  icon: assets/images/experience/icon-2.png
+  content: 생산관리 <br> 2020.04 - 2021.04
+- title: (주)NEK
+  icon: assets/images/experience/icon-3.png
+  content: 생산 기계 설비 수리 금형 교환 <br> 2017.12 - 2019.12
 Language-process:
-  - title: "Java"
-    icon: "assets/images/skills/java.png"
-
-  - title: "Python"
-    icon: "assets/images/skills/python.png"
-
-  - title: "SQL"
-    icon: "assets/images/skills/sql.png"
-
+- title: Java
+  icon: assets/images/skills/java.png
+- title: Python
+  icon: assets/images/skills/python.png
+- title: SQL
+  icon: assets/images/skills/sql.png
 FrontEnd-process:
-  - title: "HTML5"
-    icon: "assets/images/skills/html5.png"
-
-  - title: "CSS"
-    icon: "assets/images/skills/css.png"
-
-  - title: "JavaScript(Jquery)"
-    icon: "assets/images/skills/js.png"
-
-  - title: "BootStrap"
-    icon: "assets/images/skills/bootstrap.png"
-
+- title: HTML5
+  icon: assets/images/skills/html5.png
+- title: CSS
+  icon: assets/images/skills/css.png
+- title: JavaScript(Jquery)
+  icon: assets/images/skills/js.png
+- title: BootStrap
+  icon: assets/images/skills/bootstrap.png
 BackEnd-process:
-  - title: "Spring"
-    icon: "assets/images/skills/spring.png"
-
-  - title: "JSP/JSTL"
-    icon: "assets/images/skills/jsp.png"
-
+- title: Spring
+  icon: assets/images/skills/spring.png
+- title: JSP/JSTL
+  icon: assets/images/skills/jsp.png
 DataBase-process:
-  - title: "Oracle"
-    icon: "assets/images/skills/oracle.png"
-
-  - title: "MyBatis"
-    icon: "assets/images/skills/mybatis.png"
-
+- title: Oracle
+  icon: assets/images/skills/oracle.png
+- title: MyBatis
+  icon: assets/images/skills/mybatis.png
 Tool-process:
-  - title: "Eclipse"
-    icon: "assets/images/skills/eclipse.png"
-
-  - title: "STS(Spring-Tool-Suite)"
-    icon: "assets/images/skills/spring.png"
-
-  - title: "Visual Studio Code"
-    icon: "assets/images/skills/vscode.png"
-
-  - title: "GitHub"
-    icon: "assets/images/skills/github.png"
-    
-#-------------------------------
-# Skills Section
-
-blog-btn-link: "/blog"
-
+- title: Eclipse
+  icon: assets/images/skills/eclipse.png
+- title: STS(Spring-Tool-Suite)
+  icon: assets/images/skills/spring.png
+- title: Visual Studio Code
+  icon: assets/images/skills/vscode.png
+- title: GitHub
+  icon: assets/images/skills/github.png
+blog-btn-link: /blog
 skills-title: Skills
 skills:
-  - { name: Language, color: "#fdb157", value: "80%" }
-  - { name: FrontEnd, color: "#9473e6", value: "70%" }
-  - { name: BackEnd, color: "#bdecf6", value: "80%" }
-  - { name: DataBase(DB), color: "#ffffa6", value: "60%" }
-
-#-------------------------------
-# Exprerience Section
-
+- name: Language
+  color: '#fdb157'
+  value: 80%
+- name: FrontEnd
+  color: '#9473e6'
+  value: 70%
+- name: BackEnd
+  color: '#bdecf6'
+  value: 80%
+- name: DataBase(DB)
+  color: '#ffffa6'
+  value: 60%
 experience-title: Experience
 experience:
-  - {
-      name: Junior UX Designer,
-      icon: "icon-1.png",
-      date: "Jan 2007 - Feb 2009",
-      organization: "WEBEX",
-    }
-  - {
-      name: UX & UI Designer,
-      icon: "icon-2.png",
-      date: "Mar 2009 - Aug 2014",
-      organization: "AUGMEDIX",
-    }
-  - {
-      name: Senior UI Designer,
-      icon: "icon-3.png",
-      date: "Sep 2014 - Present",
-      organization: "THEMEFISHER",
-    }
-
-#-------------------------------
-# Education Section
-
+- name: Junior UX Designer
+  icon: icon-1.png
+  date: Jan 2007 - Feb 2009
+  organization: WEBEX
+- name: UX & UI Designer
+  icon: icon-2.png
+  date: Mar 2009 - Aug 2014
+  organization: AUGMEDIX
+- name: Senior UI Designer
+  icon: icon-3.png
+  date: Sep 2014 - Present
+  organization: THEMEFISHER
 education-title: Education
 education:
-  - {
-      name: KH정보교육원,
-      date: "2021.7 - 2022.12",
-      organization: "(스마트웹&콘텐츠개발)스마트웹&콘텐츠 웹애플리케이션 개발자 양성과정",
-      
-    }
-  - {
-      name: 경남도립 남해대학교,
-      date: "2012.3 - 2014.6",
-      organization: "메카트로닉스과",
-    }
-  - {
-      name: 칠원고등학교,
-      date: "2009.3 - 2012.2",
-      organization: "이과계열",
-    }
-
-#-------------------------------
-# Services Section
-
+- name: KH정보교육원
+  date: 2021.7 - 2022.12
+  organization: (스마트웹&콘텐츠개발)스마트웹&콘텐츠 웹애플리케이션 개발자 양성과정
+- name: 경남도립 남해대학교
+  date: 2012.3 - 2014.6
+  organization: 메카트로닉스과
+- name: 칠원고등학교
+  date: 2009.3 - 2012.2
+  organization: 이과계열
 services-title: Services
 services:
-  - {
-      name: UI Design,
-      icon: ti-palette,
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      active: ,# Add true to select section
-    }
-  - {
-      name: UX Design,
-      icon: ti-vector,
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      active: true, # Add true to select section
-    }
-  - {
-      name: Interaction Design,
-      icon: ti-panel,
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      active: ,# Add true to select section
-    }
-
-#-------------------------------
-# Portfolio (Section and Page)
-
-# Portfolio Home Section
+- name: UI Design
+  icon: ti-palette
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  active: null
+- name: UX Design
+  icon: ti-vector
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  active: true
+- name: Interaction Design
+  icon: ti-panel
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  active: null
 portfolio-home-items:
-  - image: "assets/images/portfolio/item-1.png"
-    url: "#"
+- image: assets/images/portfolio/challengers.png
+  url: '#'
+- image: assets/images/portfolio/item-2.png
+  url: '#'
+- image: assets/images/portfolio/item-3.png
+  url: '#'
+- image: assets/images/portfolio/item-4.png
+  url: '#'
 
-  - image: "assets/images/portfolio/item-2.png"
-    url: "#"
-
-  - image: "assets/images/portfolio/item-3.png"
-    url: "#"
-
-  - image: "assets/images/portfolio/item-4.png"
-    url: "#"
-
-  - image: "assets/images/portfolio/item-5.png"
-    url: "#"
-
-# Portfolio Page
 portfolio-label:
-  - { title: "UI/UX Design", type: "design" }
-  - { title: "BRANDING", type: "branding" }
-  - { title: "ILLUSTRATION", type: "illustration" }
-
+- title: JSP
+  type: design
+- title: SPRING
+  type: branding
+- title: PYTHON
+  type: illustration
 portfolio-items:
-  - image: "assets/images/portfolio/item-1.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
-      - type: "illustration"
-
-  - image: "assets/images/portfolio/item-2.png"
-    url: "#"
-    portfolio-type:
-      - type: "branding"
-
-  - image: "assets/images/portfolio/item-3.png"
-    url: "#"
-    portfolio-type:
-      - type: "illustration"
-
-  - image: "assets/images/portfolio/item-6.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
-      - type: "branding"
-
-  - image: "assets/images/portfolio/item-8.png"
-    url: "#"
-    portfolio-type:
-      - type: "illustration"
-
-  - image: "assets/images/portfolio/item-5.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
-
-  - image: "assets/images/portfolio/item-1.png"
-    url: "#"
-    portfolio-type:
-      - type: "branding"
-
-  - image: "assets/images/portfolio/item-3.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
-      - type: "illustration"
-      - type: "branding"
-
-  - image: "assets/images/portfolio/item-7.png"
-    url: "#"
-    portfolio-type:
-      - type: "illustration"
-
-#-------------------------------
-# Testimonials Section
-
+- image: assets/images/portfolio/challengers.png
+  url: '#'
+  portfolio-type:
+  - type: 관리자 페이지 전체 담당
+  - type: JSP , HTML5 , CSS , OracleDB , BootStrap , JavaScript(Jquery) , github , notion , Discord
+- image: assets/images/portfolio/item-2.png
+  url: '#'
+  portfolio-type:
+  - type: branding
+- image: assets/images/portfolio/item-3.png
+  url: '#'
+  portfolio-type:
+  - type: illustration
+- image: assets/images/portfolio/item-6.png
+  url: '#'
+  portfolio-type:
+  - type: design
+  - type: branding
+- image: assets/images/portfolio/item-8.png
+  url: '#'
+  portfolio-type:
+  - type: illustration
+- image: assets/images/portfolio/item-5.png
+  url: '#'
+  portfolio-type:
+  - type: design
+- image: assets/images/portfolio/item-1.png
+  url: '#'
+  portfolio-type:
+  - type: branding
+- image: assets/images/portfolio/item-3.png
+  url: '#'
+  portfolio-type:
+  - type: design
+  - type: illustration
+  - type: branding
+- image: assets/images/portfolio/item-7.png
+  url: '#'
+  portfolio-type:
+  - type: illustration
 testimonial-items:
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-
-#-------------------------------
-# Contact Section
-
+- name: Jesica Gomez
+  image: assets/images/testimonial/client-1.png
+  designation: CEO, Funder
+  content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+- name: Jesica Gomez
+  image: assets/images/testimonial/client-1.png
+  designation: CEO, Funder
+  content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+- name: Jesica Gomez
+  image: assets/images/testimonial/client-1.png
+  designation: CEO, Funder
+  content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 contact-title: Contact Info
 contact-email: steve.fruits@email.com
