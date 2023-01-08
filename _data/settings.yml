@@ -194,6 +194,17 @@ testimonial-items:
   
 - image: assets/images/portfolio/challengers/챌린지개설.png
   content: 관리자 챌린지개설 페이지입니다. <br> 챌린지 개설은 총 5단계로 이루어져 있습니다. <br> 1.세 개의 채크박스를 클릭하여 다음 단계로 넘어 갑니다. <br> 2.다른 회원들에게 챌린지의 공개 유무를 결정합니다. <br> 3.챌린지의 제목 , 인증 방법 , 인증 빈도 , 기간을 정하고 예시 사진을 확인 후 다음 페이지로 넘어 갈 수 있습니다. <br> 4.인증가능 시간과 챌린지 소개 , 소개 사진을 작성 후 마지막 단계로 이동합니다. <br>5.예치금과 비공개 참여 코드 , 최대인원 설정후 챌린지를 개설할 수 있습니다.  
-  
+ 
+challnegers-process:
+- icon: assets/images/skills/java.png
+- icon: assets/images/skills/html5.png
+- icon: assets/images/skills/css.png
+- icon: assets/images/skills/js.png
+- icon: assets/images/skills/bootstrap.png
+- icon: assets/images/skills/jsp.png
+- icon: assets/images/skills/oracle.png
+- icon: assets/images/skills/eclipse.png
+- icon: assets/images/skills/github.png 
+
 contact-title: Contact Info
 contact-email: steve.fruits@email.com
