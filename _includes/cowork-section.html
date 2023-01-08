@@ -1,10 +1,17 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-</head>
-<body>
-1
-</body>
-</html>
+{% if site.data.settings.cowork-process %}
+<!-- Work Process -->
+<section class="section">
+  <div class="container">
+    <div class="row justify-content-around">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-title">Language</h2>
+      </div>
+      {% for cowork in site.data.settings.cowork-process %}
+      <div class="col-lg-3 col-md-4 text-center hover-shadow pt-3">
+        <img src="{{ cowork.icon | relative_url }}" class="mb-4" alt="icon">
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
