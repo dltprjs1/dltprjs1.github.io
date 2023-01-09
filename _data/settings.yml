@@ -157,7 +157,7 @@ portfolio-items:
 
 testimonial-items:
 - image: assets/images/portfolio/challengers/관리자메인.png
-  content: 5인 팀 프로젝트 중 제가 맡은 기능은 관리자 페이지입니다. <br> 관리자 메인페이지에는 총 6개의 카테고리로 나뉘어져 있습니다. 상단에는 include를 통해 관리자 모든 페이지에 위와 같이 로고 , 관리자 홈 , 회원 신고 관리 , 카테고리 관리 , 자주하는 질문 관리 , 1:1문의 관리로 이동이 가능하고 메인에는 총 6개로 상단의 페이지를 포함하여 챌린지 관리 , 관리자 권한 챌린지 만들기 페이지로 나뉩니다.
+  content: <h4>5인 팀 프로젝트<h4><br> 제가 맡은 기능은 관리자 페이지입니다. <br> 관리자 메인페이지에는 총 6개의 카테고리로 나뉘어져 있습니다. 상단에는 include를 통해 관리자 모든 페이지에 위와 같이 로고 , 관리자 홈 , 회원 신고 관리 , 카테고리 관리 , 자주하는 질문 관리 , 1:1문의 관리로 이동이 가능하고 메인에는 총 6개로 상단의 페이지를 포함하여 챌린지 관리 , 관리자 권한 챌린지 만들기 페이지로 나뉩니다.
   
 - image: assets/images/portfolio/challengers/회원신고관리.png
   content: 회원 신고 관리 페이지 입니다. <br> 메인에는 테이블 형식으로 회원 신고 목록을 볼 수 있으며 상단에는 검색 하단에는 페이징 처리가 되어있습니다. ajax를 활용하여 피신고자 , 신고자 , 제목을 통해 검색 할 수 있으며 페이징 처리 또한 ajax를 활용하였습니다. 목록을 클릭하여 회원을 삭제 또는 회원 정지 기능이 있습니다.  
@@ -192,7 +192,7 @@ challnegers-process:
 
 testimonial2-items:
 - image: assets/images/portfolio/cowork/프로젝트관리.png
-  content: 5인 팀 프로젝트 중 제가 맡은 기능은 프로젝트 페이지 입니다. <br> 프로젝트 메인 페이지는 상단에 include를 이용하여 캘린더 , 프로젝트 , 메모 , 주소록 , 메일 , 채팅창으로 이동이 가능하고 좌측에는 table형식 보기 버튼과 Status와 Member 필터링 기능이 있습니다.
+  content: <h4>5인 팀 프로젝트<h4><br> 제가 맡은 기능은 프로젝트 페이지 입니다. <br> 프로젝트 메인 페이지는 상단에 include를 이용하여 캘린더 , 프로젝트 , 메모 , 주소록 , 메일 , 채팅창으로 이동이 가능하고 좌측에는 table형식 보기 버튼과 Status와 Member 필터링 기능이 있습니다.
   
 - image: assets/images/portfolio/cowork/프로젝트Drag.png
   content: 프로젝트 페이지 기능 입니다. <br> Jquery에서 제공하는 sortable 함수와 option으로는 handle , connectwith , start , update , receive를 이용하여 하나의 프로젝트를 이동할 경우 ajax를 이용하여 status의 프로젝트가 업데이트 되도록 하였습니다. 가장 우측으로는 status 추가 기능이 있고 , status 아래 부분에는 프로젝트 추가기능이 있습니다.   
@@ -218,7 +218,7 @@ cowork-process:
 
 testimonial3-items:
 - image: assets/images/portfolio/자동매매/매매내역.png
-  content: 개별 프로젝트 입니다. 보시는 페이지는 코인 거래소에서 제공하는 저의 매매 내역입니다. <br> 업비트에서 제공하는 API를 통해 기능구현 하였습니다. 메인 지표로 해당 코인과 비트코인의 모든 차트표를 비교한 후 보조지표중 RSI StochasticSlow MACD로 매매 조건이 충족될 경우 매수 또는 매도 기능을 구현하였습니다.매수를 한 후에는 매수 조건이 갱신되며 갱신된 매수 조건에 도달할 경우 추가로 매수하도록 기능 구현하였습니다. 
+  content: <h4>개별 프로젝트<h4><br> 보시는 페이지는 코인 거래소에서 제공하는 저의 매매 내역입니다. <br> 업비트에서 제공하는 API를 통해 기능구현 하였습니다. 메인 지표로 해당 코인과 비트코인의 모든 차트표를 비교한 후 보조지표중 RSI StochasticSlow MACD로 매매 조건이 충족될 경우 매수 또는 매도 기능을 구현하였습니다.매수를 한 후에는 매수 조건이 갱신되며 갱신된 매수 조건에 도달할 경우 추가로 매수하도록 기능 구현하였습니다. 
   
 - image: assets/images/portfolio/자동매매/알림.jpg
   content: 자동으로 매수 또는 매도 될 경우 텔레그램API를 통해 자동봇 메세지를 송출하는 기능입니다.    
