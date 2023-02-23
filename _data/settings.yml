@@ -146,8 +146,8 @@ portfolio-items:
   url: '/autotrading'
   portfolio-type:
   - type: PYTHON
-- image: assets/images/portfolio/item-6.png
-  url: '#'
+- image: assets/images/portfolio/sang_logo.png
+  url: '/SangGym'
   portfolio-type:
   - type:
 - image: assets/images/portfolio/item-8.png
