@@ -8,8 +8,8 @@
         {% for testimonial4-item in site.data.settings.testimonial4-items %}
         <!-- slider-item -->
         <div class="text-center testimonial-content">
-          <img class="img-fluid mb-4 d-inline-block" src="{{ testimonial4-item.image | relative_url }}"
-            alt="{{ testimonial4-item.name }}">
+          <video class="img-fluid mb-4 d-inline-block" src="{{ testimonial4-item.image | relative_url }}"
+            alt="{{ testimonial4-item.name }}"></video>
           <p class="mb-4">{{ testimonial4-item.content }}</p>
         </div>
         {% endfor %}
