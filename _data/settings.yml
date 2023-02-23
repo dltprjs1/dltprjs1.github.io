@@ -115,14 +115,14 @@ education:
   organization: 이과계열
 
 portfolio-home-items:
-- image: assets/images/portfolio/challengers.png
-  url: '/challengers'
+- image: assets/images/portfolio/sang_logo.png
+  url: '/SangGym'
 - image: assets/images/portfolio/cowork.png
   url: '/cowork'
 - image: assets/images/portfolio/코인로고.png
   url: '/autotrading'
-- image: assets/images/portfolio/item-4.png
-  url: '#'
+- image: assets/images/portfolio/challengers.png
+  url: 'challengers'
 - image: assets/images/portfolio/item-5.png
   url: '#'
 
@@ -133,9 +133,10 @@ portfolio-label:
   type: SPRING
 - title: PYTHON
   type: PYTHON
+
 portfolio-items:
-- image: assets/images/portfolio/challengers.png
-  url: '/challengers'
+- image: assets/images/portfolio/sang_logo.png
+  url: '/SangGym'
   portfolio-type:
   - type: JSP
 - image: assets/images/portfolio/cowork.png
@@ -146,8 +147,8 @@ portfolio-items:
   url: '/autotrading'
   portfolio-type:
   - type: PYTHON
-- image: assets/images/portfolio/sang_logo.png
-  url: '/SangGym'
+- image: assets/images/portfolio/challengers.png
+  url: '/challengers'
   portfolio-type:
   - type:
 - image: assets/images/portfolio/item-8.png
@@ -226,8 +227,23 @@ testimonial3-items:
 autotrading-process:
 - icon: assets/images/skills/python.png
 - icon: assets/images/skills/vscode.png
-- icon: assets/images/skills/github.png 
+- icon: assets/images/skills/github.png
 
+
+testimonial4-items:
+- image: assets/video/sanggym.mp4
+  content: <h4>개별 프로젝트</h4><br> 보시는 페이지는 코인 거래소에서 제공하는 저의 매매 내역입니다. <br> 업비트에서 제공하는 API를 통해 기능구현 하였습니다. 메인 지표로 해당 코인과 비트코인의 모든 차트표를 비교한 후 보조지표중 RSI StochasticSlow MACD로 매매 조건이 충족될 경우 매수 또는 매도 기능을 구현하였습니다.매수를 한 후에는 매수 조건이 갱신되며 갱신된 매수 조건에 도달할 경우 추가로 매수하도록 기능 구현하였습니다. 
+  
+- image: assets/video/sang_kakao.mp4
+  content: 자동으로 매수 또는 매도 될 경우 텔레그램API를 통해 자동봇 메세지를 송출하는 기능입니다.    
+
+sanggym-process:
+- icon: assets/images/skills/java.png
+- icon: assets/images/skills/html5.png
+- icon: assets/images/skills/css.png
+- icon: assets/images/skills/js.png
+- icon: assets/images/skills/spring.png
+- icon: assets/images/skills/github.png
 
 contact-title: Contact Info
 contact-email: steve.fruits@email.com
