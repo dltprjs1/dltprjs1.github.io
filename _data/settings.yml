@@ -242,7 +242,9 @@ sanggym-process:
 - icon: assets/images/skills/html5.png
 - icon: assets/images/skills/css.png
 - icon: assets/images/skills/js.png
+- icon: assets/images/skills/bootstrap.png
 - icon: assets/images/skills/spring.png
+- icon: assets/images/skills/intellij.png
 - icon: assets/images/skills/github.png
 
 contact-title: Contact Info
