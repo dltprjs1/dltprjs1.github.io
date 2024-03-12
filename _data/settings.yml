@@ -4,7 +4,7 @@ author: themefisher
 description: this is meta description
 email: dltprjs1@naver.com
 phone: 010 - 7724 - 7848
-address: 서울특별시 동대문구 휘경동
+address: 서울특별시 금천구 벚꽃로 14길 5
 copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
 menu:
 - name: About
@@ -29,12 +29,12 @@ blurb: 어려운 난관에 맞닥뜨려도 해결할 때까지 놓지 않는 신
 blurb-btn-link: /about
 blurb-btn-name: know more
 work-process:
+- title: (주)넷틴스
+  icon: assets/images/experience/icon-2.png
+  content: 소프트웨어 유지보수 및 개발, 웹 개발 및 유지보수 <br> 2023.03 - 2024.03
 - title: (주)경남지오영
   icon: assets/images/experience/icon-1.png
   content: 자재관리 <br> 2021.05 - 2022.06
-- title: (주)DY C&F
-  icon: assets/images/experience/icon-2.png
-  content: 생산관리 <br> 2020.04 - 2021.04
 - title: (주)NEK
   icon: assets/images/experience/icon-3.png
   content: 생산 기계 설비 수리 금형 교환 <br> 2017.12 - 2019.12
@@ -43,7 +43,7 @@ Language-process:
   icon: assets/images/skills/java.png
 - title: Python
   icon: assets/images/skills/python.png
-- title: SQL
+- title: SQL/PL
   icon: assets/images/skills/sql.png
 FrontEnd-process:
 - title: HTML5
