@@ -136,22 +136,32 @@ portfolio-label:
   type: PYTHON
 
 portfolio-items:
-- image: assets/images/portfolio/코인로고.png
+- image: assets/images/portfolio/AutoTrading_Server.png
   url: '/autotrading'
   portfolio-type:
   - type:
-    
-- image: assets/images/portfolio/sang_logo.png
+
+- image: assets/images/portfolio/AutoTrading_Web.png
+  url: '/autotrading'
+  portfolio-type:
+  - type:
+  
+- image: assets/images/portfolio/portfolio_Main.png
+  url: '/autotrading'
+  portfolio-type:
+  - type:
+
+- image: assets/images/portfolio/SangGYM_Main.png
   url: '/SangGym'
   portfolio-type:
   - type: JAVA
   
-- image: assets/images/portfolio/cowork.png
+- image: assets/images/portfolio/FinalProject_Main.png
   url: '/cowork'
   portfolio-type:
   - type: JAVA
   
-- image: assets/images/portfolio/challengers.png
+- image: assets/images/portfolio/SemiProject_Main.png
   url: '/challengers'
   portfolio-type:
   - type: JAVA
