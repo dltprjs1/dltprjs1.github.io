@@ -218,13 +218,13 @@ cowork-process:
 
 
 testimonial3-items:
-- image: 
+- image: assets/images/portfolio/AutoTrading/Web1.png
   content: <h4>개별 프로젝트</h4><br> 총 세 개의 구성으로 이루어진 프로젝트 입니다. <br>1. 자동 선물 프로그램 <br>2. 데이터 처리 서버 <br> 3. 프로그램 설정 및 데이터 집계 페이지 <br> 프로그램에서 주문 조건을 찾아 주문 하는 형식의 프로그램입니다. <br> 주문 조건과 계좌 데이터 주문 처리에 대한 데이터를 서버로 전송하도록 개발하였습니다.<br> 서버에서는 받은 데이터를 웹페이지 프로젝트로 송신 및 데이터베이스 저장 <br> 웹페이지에서는 서버에서 받은 데이터 수신 및 노출과 프로그램 설정 기능을 구현하였습니다.  
   
 - image: assets/images/portfolio/AutoTrading/Server.png
   content: 프로그램에서 넘어온 데이터를 mybatis로 데이터베이스에 CRUD 및 웹페이지로 데이터 전송 하고 있습니다. 현재는 Windows OS에서 Demon으로 작동하고 있으며 추후 리눅스에서 구현할 계획입니다.
   
-- image: assets/images/portfolio/AutoTrading/Web1.png
+- image: 
   content: Socket Client로 Server에서 수신받은 데이터를 활용하여 웹페이지에 실시간으로 데이터 노출 하도록 개발하였습니다.  
 
 autotrading-process:
