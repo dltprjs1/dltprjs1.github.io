@@ -25,7 +25,7 @@ social:
   link: https://www.instagram.com/?next=%2F
 - icon: ti-github
   link: https://github.com/dltprjs1
-blurb: 어려운 난관에 맞닥뜨려도 해결할 때까지 놓지 않는 신입 개발자 이세건입니다. <br> 끊임없이 노력하는 개발자가 되겠습니다.<br> 어느 곳에 가더라도 함께하는 개발자가 되겠습니다.
+blurb: 어려운 난관에 맞닥뜨려도 해결할 때까지 놓지 않는 개발자 이세건입니다. <br> 끊임없이 노력하는 개발자가 되겠습니다.<br> 어느 곳에 가더라도 함께하는 개발자가 되겠습니다.
 blurb-btn-link: /about
 blurb-btn-name: know more
 work-process:
@@ -43,6 +43,8 @@ Language-process:
   icon: assets/images/skills/java.png
 - title: Python
   icon: assets/images/skills/python.png
+- title: delphi
+  icon: assets/images/skills/delphi.png
 - title: SQL/PL
   icon: assets/images/skills/sql.png
 FrontEnd-process:
@@ -55,14 +57,16 @@ FrontEnd-process:
 - title: BootStrap
   icon: assets/images/skills/bootstrap.png
 BackEnd-process:
-- title: Spring
-  icon: assets/images/skills/spring.png
-- title: JSP/JSTL
-  icon: assets/images/skills/jsp.png
+- title: Server
+  icon: assets/images/skills/java.png
+- title: MyBatis
+  icon: assets/images/skills/mybatis.png
 DataBase-process:
 - title: Oracle
   icon: assets/images/skills/oracle.png
-- title: MyBatis
+- title: MSSQL
+  icon: assets/images/skills/mybatis.png
+- title: MYSQL
   icon: assets/images/skills/mybatis.png
 Tool-process:
 - title: Eclipse
@@ -71,17 +75,16 @@ Tool-process:
   icon: assets/images/skills/spring.png
 - title: Visual Studio Code
   icon: assets/images/skills/vscode.png
+- title: IntelliJ
+  icon: assets/images/skills/intellij.png
 - title: GitHub
   icon: assets/images/skills/github.png
 blog-btn-link: /blog
 skills-title: Skills
 skills:
-- name: Language
-  color: '#fdb157'
-  value: 80%
 - name: FrontEnd
   color: '#9473e6'
-  value: 70%
+  value: 50%
 - name: BackEnd
   color: '#bdecf6'
   value: 80%
@@ -115,6 +118,12 @@ education:
   organization: 이과계열
 
 portfolio-home-items:
+- image: assets/images/portfolio/item-5.png
+  url: '#'
+- image: assets/images/portfolio/item-5.png
+  url: '#'
+- image: assets/images/portfolio/item-5.png
+  url: '#'
 - image: assets/images/portfolio/sang_logo.png
   url: '/SangGym'
 - image: assets/images/portfolio/cowork.png
@@ -123,8 +132,6 @@ portfolio-home-items:
   url: '/autotrading'
 - image: assets/images/portfolio/challengers.png
   url: 'challengers'
-- image: assets/images/portfolio/item-5.png
-  url: '#'
 
 portfolio-label:
 - title: JSP
@@ -236,6 +243,8 @@ testimonial4-items:
   
 - image: assets/video/sang_kakao.mp4
   content: 컴퓨터로 녹화할 경우 전화통화 및 카카오톡 페이지가 송출 되지 않아 휴대폰으로 촬영한 점 양해 부탑드립니다. 우선 contact를 클릭하거나 터치 할 경우 전화연결이 되고 카테고리 창에서 톡상담을 클릭할 경우 SangGYM 채널을 통해 개별적으로 사용자와의 소통이 가능하도록 하였습니다. MVC패턴을 사용하여 헬스장 관리자 페이지를 기획중에 있습니다. 시청해 주셔서 감사합니다!!!
+
+
 
 sanggym-process:
 - icon: assets/images/skills/java.png
