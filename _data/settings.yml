@@ -120,14 +120,18 @@ education:
   organization: 이과계열
 
 portfolio-home-items:
-- image: assets/images/portfolio/코인로고.png
+- image: assets/images/portfolio/AutoTrading_Server.png
   url: '/autotrading'
-- image: assets/images/portfolio/sang_logo.png
+- image: assets/images/portfolio/AutoTrading_Web.png
+  url: '/autotrading'
+- image: assets/images/portfolio/portfolio_Main.png
+  url: '/autotrading'
+- image: assets/images/portfolio/SangGYM_Main.png
   url: '/SangGym'
-- image: assets/images/portfolio/cowork.png
+- image: assets/images/portfolio/FinalProject_Main.png
   url: '/cowork'
-- image: assets/images/portfolio/challengers.png
-  url: 'challengers'
+- image: assets/images/portfolio/SemiProject_Main.png
+  url: '/challengers'
 
 portfolio-label:
 - title: JAVA
@@ -139,17 +143,17 @@ portfolio-items:
 - image: assets/images/portfolio/AutoTrading_Server.png
   url: '/autotrading'
   portfolio-type:
-  - type:
+  - type: JAVA
 
 - image: assets/images/portfolio/AutoTrading_Web.png
   url: '/autotrading'
   portfolio-type:
-  - type:
+  - type: JAVA
   
 - image: assets/images/portfolio/portfolio_Main.png
   url: '/autotrading'
   portfolio-type:
-  - type:
+  - type: JAVA
 
 - image: assets/images/portfolio/SangGYM_Main.png
   url: '/SangGym'
