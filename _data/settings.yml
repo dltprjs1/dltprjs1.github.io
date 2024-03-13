@@ -120,10 +120,6 @@ education:
 portfolio-home-items:
 - image: assets/images/portfolio/item-5.png
   url: '#'
-- image: assets/images/portfolio/item-5.png
-  url: '#'
-- image: assets/images/portfolio/item-5.png
-  url: '#'
 - image: assets/images/portfolio/sang_logo.png
   url: '/SangGym'
 - image: assets/images/portfolio/cowork.png
@@ -140,21 +136,11 @@ portfolio-label:
   type: PYTHON
 
 portfolio-items:
-- image: assets/images/portfolio/item-8.png
-  url: '#'
+- image: assets/images/portfolio/코인로고.png
+  url: '/autotrading'
   portfolio-type:
-  - type: JAVA
-  
-- image: assets/images/portfolio/item-8.png
-  url: '#'
-  portfolio-type:
-  - type: JAVA
-  
-- image: assets/images/portfolio/item-8.png
-  url: '#'
-  portfolio-type:
-  - type: PYTHON
-  
+  - type:
+    
 - image: assets/images/portfolio/sang_logo.png
   url: '/SangGym'
   portfolio-type:
@@ -164,11 +150,6 @@ portfolio-items:
   url: '/cowork'
   portfolio-type:
   - type: JAVA
-  
-- image: assets/images/portfolio/코인로고.png
-  url: '/autotrading'
-  portfolio-type:
-  - type: PYTHON
   
 - image: assets/images/portfolio/challengers.png
   url: '/challengers'
@@ -237,15 +218,25 @@ cowork-process:
 
 
 testimonial3-items:
-- image: assets/images/portfolio/자동매매/매매내역.png
-  content: <h4>개별 프로젝트</h4><br> 보시는 페이지는 코인 거래소에서 제공하는 저의 매매 내역입니다. <br> 업비트에서 제공하는 API를 통해 기능구현 하였습니다. 메인 지표로 해당 코인과 비트코인의 모든 차트표를 비교한 후 보조지표중 RSI StochasticSlow MACD로 매매 조건이 충족될 경우 매수 또는 매도 기능을 구현하였습니다.매수를 한 후에는 매수 조건이 갱신되며 갱신된 매수 조건에 도달할 경우 추가로 매수하도록 기능 구현하였습니다. 
+- image: 
+  content: <h4>개별 프로젝트</h4><br> 총 세 개의 구성으로 이루어진 프로젝트 입니다. <br>1. 자동 선물 프로그램 <br>2. 데이터 처리 서버 <br> 3. 프로그램 설정 및 데이터 집계 페이지 <br> 프로그램에서 주문 조건을 찾아 주문 하는 형식의 프로그램입니다. <br> 주문 조건과 계좌 데이터 주문 처리에 대한 데이터를 서버로 전송하도록 개발하였습니다.  
   
-- image: assets/images/portfolio/자동매매/알림.jpg
-  content: 자동으로 매수 또는 매도 될 경우 텔레그램API를 통해 자동봇 메세지를 송출하는 기능입니다.    
+- image: assets/images/portfolio/AutoTrading/Server.png
+  content: 프로그램에서 넘어온 데이터를 mybatis로 데이터베이스에 CRUD 및 웹페이지로 데이터 전송 하고 있습니다. 현재는 Windows OS에서 Demon으로 작동하고 있으며 추후 리눅스에서 구현할 계획입니다.
+  
+- image: assets/images/portfolio/AutoTrading/Web.png
+  content: Socket Client로 Server에서 수신받은 데이터를 활용하여 웹페이지에 실시간으로 데이터 노출 하도록 개발하였습니다.  
 
 autotrading-process:
 - icon: assets/images/skills/python.png
 - icon: assets/images/skills/vscode.png
+- icon: assets/images/skills/java.png
+- icon: assets/images/skills/mssql.png
+- icon: assets/images/skills/spring.png
+- icon: assets/images/skills/mybatis.png
+- icon: assets/images/skills/html5.png
+- icon: assets/images/skills/css.png
+- icon: assets/images/skills/js.png
 - icon: assets/images/skills/github.png
 
 
