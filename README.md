@@ -1,58 +1,41 @@
 # 포트폴리오
 
-Kross Jekyll Creative Portfolio Template ported from [Kross HTML Template](https://themefisher.com/products/kross/)
+개발자 이세건 포트폴리오입니다!
 
-## Demo
+## 포트폴리오 구성
 
-| Homepage  | About  | Blog  | Portfolio  | Contact  |
+| Homepage  | About  | Skills  | Portfolio  | Details  |
 |---|---|---|---|---|
-| ![Homepage](https://github.com/dltprjs1/dltprjs1.github.io/blob/main/assets/images/ReadMe/portfolio_Main.png) | ![About](https://user-images.githubusercontent.com/37659754/58154317-28ea6f00-7c93-11e9-914b-b7e5f1cdab0e.png) | ![Blog](https://user-images.githubusercontent.com/37659754/58154339-369ff480-7c93-11e9-9568-53b7ebdc6b2d.png) | ![portfolio](https://user-images.githubusercontent.com/37659754/58154368-491a2e00-7c93-11e9-8900-f5a6abe0a61d.png) | ![contact](https://user-images.githubusercontent.com/37659754/58154403-57684a00-7c93-11e9-9cea-ea28253a6f6a.png) |
+| ![Homepage](assets\images\ReadMe\portfolio_Main.png) | ![About](https://github.com/dltprjs1/dltprjs1.github.io/blob/main/assets/images/ReadMe/portfolio_AboutMe.png) | ![Skills](https://github.com/dltprjs1/dltprjs1.github.io/blob/main/assets/images/ReadMe/portfolio_Skills.png) | ![portfolio](https://user-images.githubusercontent.com/37659754/58154368-491a2e00-7c93-11e9-8900-f5a6abe0a61d.png) | ![Details](https://github.com/dltprjs1/dltprjs1.github.io/blob/main/assets/images/ReadMe/portfolio_Details.png) |
 
-[Live Preview](http://demo.themefisher.com/kross).
+### 홈페이지
 
-## Setup
+ * 인사말
+ * 간단한 자기소개
+ * Skills
+ * PortFolio
+ 
+### About Me
 
-To start your project, fork this repository
-After forking the repo, your site will be live immediately on your personal Github Pages account, e.g. `https://yourusername.github.io/your-repo-name/`.
+ * 자기소개서 ( HomePage 간단한 자기소개 클릭 시 이동 )
+ * 경력
+ * 학력
+ 
+### Skills
+ 
+ * 기술 스택 목록
+   1. Language
+   2. Front End
+   3. Back End
+   4. DataBase
+   5. Tool
+   
+### Portfolio
 
-Make sure GitHub Pages is enabled for your repo. It might take some time for the site to propagate entirely.
+ * 프로젝트 내역
+ 
+### details
 
-## Customize
+ * 포트폴리오 클릭 시 상세 내용
+ * 사용한 기술
 
-Things you can customize in `_data/settings.yml` (no HTML/CSS):
-
-- Theme General Settings ( name, logo, email, phone, address )
-- Hero Section
-- About Section
-- Team Section
-- Skills Section
-- Experience Section
-- Education Section
-- Services Section
-- Portfolio Section
-- Testimonials Section
-- Client Slider Section
-- Contact Section
-
-## Deployment
-
-To run the theme locally, navigate to the theme directory and run `bundle install` to install the dependencies, then run `jekyll serve` or `bundle exec jekyll serve` to start the Jekyll server.
-I would recommend checking the [Deployment Methods](https://jekyllrb.com/docs/deployment-methods/) page on Jekyll's website.
-
-## Reporting Issues
-
-We use GitHub Issues as the official bug tracker for the **Kross Theme**. Please Search [existing issues](https://github.com/themefisher/kross-jekyll/issues). It’s possible someone has already reported the same problem.
-If your problem or idea is not addressed yet, [open a new issue](https://github.com/themefisher/kross-jekyll/issues/new)
-
-## Technical Support or Questions
-
-If you have questions or need help integrating the product please [contact us](mailto:themefisher@gmail.com) instead of opening an issue.
-
-<!-- licence -->
-## License
-
-Copyright (c) 2016 - Present, Designed & Developed by [Themefisher](https://themefisher.com)
-
-**Code License:** Released under the [MIT](https://github.com/themefisher/kross-jekyll/blob/main/LICENSE) license.
-
-**Image license:** The images are only for demonstration purposes. They have their license, we don't have permission to share those images.
