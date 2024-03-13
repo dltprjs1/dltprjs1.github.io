@@ -2,7 +2,7 @@
 
 개발자 이세건 포트폴리오입니다!
 
-[Move to Portfolio](https://dltprjs1.github.io/)
+[->Move to Portfolio](https://dltprjs1.github.io/)
 
 ## 포트폴리오 구성
 
