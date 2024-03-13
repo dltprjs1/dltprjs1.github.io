@@ -2,6 +2,8 @@
 
 개발자 이세건 포트폴리오입니다!
 
+[이동](https://dltprjs1.github.io/)
+
 ## 포트폴리오 구성
 
 | Homepage  | About  | Skills  | Portfolio  | Details  |
@@ -17,7 +19,7 @@
  
 ### About Me
 
- * 자기소개서 ( HomePage 간단한 자기소개 클릭 시 이동 )
+ * 자기소개서
  * 경력
  * 학력
  
