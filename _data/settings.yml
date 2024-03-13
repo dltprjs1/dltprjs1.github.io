@@ -118,14 +118,12 @@ education:
   organization: 이과계열
 
 portfolio-home-items:
-- image: assets/images/portfolio/item-5.png
-  url: '#'
+- image: assets/images/portfolio/코인로고.png
+  url: '/autotrading'
 - image: assets/images/portfolio/sang_logo.png
   url: '/SangGym'
 - image: assets/images/portfolio/cowork.png
   url: '/cowork'
-- image: assets/images/portfolio/코인로고.png
-  url: '/autotrading'
 - image: assets/images/portfolio/challengers.png
   url: 'challengers'
 
@@ -224,7 +222,7 @@ testimonial3-items:
 - image: assets/images/portfolio/AutoTrading/Server.png
   content: 프로그램에서 넘어온 데이터를 mybatis로 데이터베이스에 CRUD 및 웹페이지로 데이터 전송 하고 있습니다. 현재는 Windows OS에서 Demon으로 작동하고 있으며 추후 리눅스에서 구현할 계획입니다.
   
-- image: assets/images/portfolio/AutoTrading/Web.png
+- image: assets/images/portfolio/AutoTrading/Web1.png
   content: Socket Client로 Server에서 수신받은 데이터를 활용하여 웹페이지에 실시간으로 데이터 노출 하도록 개발하였습니다.  
 
 autotrading-process:
@@ -260,4 +258,4 @@ sanggym-process:
 - icon: assets/images/skills/github.png
 
 contact-title: Contact Info
-contact-email: steve.fruits@email.com
+contact-email: dltprjs1@naver.com
