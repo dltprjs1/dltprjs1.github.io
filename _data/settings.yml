@@ -65,9 +65,9 @@ DataBase-process:
 - title: Oracle
   icon: assets/images/skills/oracle.png
 - title: MSSQL
-  icon: assets/images/skills/mybatis.png
+  icon: assets/images/skills/mssql.png
 - title: MYSQL
-  icon: assets/images/skills/mybatis.png
+  icon: assets/images/skills/mysql.png
 Tool-process:
 - title: Eclipse
   icon: assets/images/skills/eclipse.png
