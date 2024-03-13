@@ -45,8 +45,6 @@ Language-process:
   icon: assets/images/skills/python.png
 - title: delphi
   icon: assets/images/skills/delphi.png
-- title: SQL/PL
-  icon: assets/images/skills/sql.png
 FrontEnd-process:
 - title: HTML5
   icon: assets/images/skills/html5.png
@@ -61,6 +59,8 @@ BackEnd-process:
   icon: assets/images/skills/java.png
 - title: MyBatis
   icon: assets/images/skills/mybatis.png
+- title: SQL/PL
+  icon: assets/images/skills/sql.png
 DataBase-process:
 - title: Oracle
   icon: assets/images/skills/oracle.png
@@ -134,34 +134,46 @@ portfolio-home-items:
   url: 'challengers'
 
 portfolio-label:
-- title: JSP
-  type: JSP
-- title: SPRING
-  type: SPRING
+- title: JAVA
+  type: JAVA
 - title: PYTHON
   type: PYTHON
 
 portfolio-items:
+- image: assets/images/portfolio/item-8.png
+  url: '#'
+  portfolio-type:
+  - type: JAVA
+  
+- image: assets/images/portfolio/item-8.png
+  url: '#'
+  portfolio-type:
+  - type: JAVA
+  
+- image: assets/images/portfolio/item-8.png
+  url: '#'
+  portfolio-type:
+  - type: PYTHON
+  
 - image: assets/images/portfolio/sang_logo.png
   url: '/SangGym'
   portfolio-type:
-  - type: JSP
+  - type: JAVA
+  
 - image: assets/images/portfolio/cowork.png
   url: '/cowork'
   portfolio-type:
-  - type: SPRING
+  - type: JAVA
+  
 - image: assets/images/portfolio/코인로고.png
   url: '/autotrading'
   portfolio-type:
   - type: PYTHON
+  
 - image: assets/images/portfolio/challengers.png
   url: '/challengers'
   portfolio-type:
-  - type:
-- image: assets/images/portfolio/item-8.png
-  url: '#'
-  portfolio-type:
-  - type:
+  - type: JAVA
 
 testimonial-items:
 - image: assets/images/portfolio/challengers/관리자메인.png
