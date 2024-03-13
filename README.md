@@ -2,12 +2,13 @@
 
 개발자 이세건 포트폴리오입니다!
 
-[이동](https://dltprjs1.github.io/)
+[Move to Portfolio](https://dltprjs1.github.io/)
 
 ## 포트폴리오 구성
 
 | Homepage  | About  | Skills  | Portfolio  | Details  |
 |---|---|---|---|---|
+
 | ![Homepage](https://github.com/dltprjs1/dltprjs1.github.io/blob/main/assets/images/ReadMe/portfolio_Main.png) | ![About](https://github.com/dltprjs1/dltprjs1.github.io/blob/main/assets/images/ReadMe/portfolio_AboutMe.png) | ![Skills](https://github.com/dltprjs1/dltprjs1.github.io/blob/main/assets/images/ReadMe/portfolio_Skills.png) | ![portfolio](https://user-images.githubusercontent.com/37659754/58154368-491a2e00-7c93-11e9-8900-f5a6abe0a61d.png) | ![Details](https://github.com/dltprjs1/dltprjs1.github.io/blob/main/assets/images/ReadMe/portfolio_Details.png) |
 
 ### 홈페이지
@@ -24,7 +25,7 @@
  * 학력
  
 ### Skills
- 
+
  * Language
  * Front End
  * Back End
