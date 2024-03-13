@@ -56,9 +56,9 @@ FrontEnd-process:
   icon: assets/images/skills/bootstrap.png
 BackEnd-process:
 - title: Spring
-  icon: assets/images/skills/Spring.png
+  icon: assets/images/skills/spring.png
 - title: Spring FrameWork
-  icon: assets/images/skills/Spring.png
+  icon: assets/images/skills/spring.png
 - title: MyBatis
   icon: assets/images/skills/mybatis.png
 - title: SQL/PL
