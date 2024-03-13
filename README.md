@@ -6,7 +6,7 @@
 
 | Homepage  | About  | Skills  | Portfolio  | Details  |
 |---|---|---|---|---|
-| ![Homepage](assets\images\ReadMe\portfolio_Main.png) | ![About](https://github.com/dltprjs1/dltprjs1.github.io/blob/main/assets/images/ReadMe/portfolio_AboutMe.png) | ![Skills](https://github.com/dltprjs1/dltprjs1.github.io/blob/main/assets/images/ReadMe/portfolio_Skills.png) | ![portfolio](https://user-images.githubusercontent.com/37659754/58154368-491a2e00-7c93-11e9-8900-f5a6abe0a61d.png) | ![Details](https://github.com/dltprjs1/dltprjs1.github.io/blob/main/assets/images/ReadMe/portfolio_Details.png) |
+| ![Homepage]([assets\images\ReadMe\portfolio_Main.png](https://github.com/dltprjs1/dltprjs1.github.io/blob/main/assets/images/ReadMe/portfolio_Main.png)) | ![About](https://github.com/dltprjs1/dltprjs1.github.io/blob/main/assets/images/ReadMe/portfolio_AboutMe.png) | ![Skills](https://github.com/dltprjs1/dltprjs1.github.io/blob/main/assets/images/ReadMe/portfolio_Skills.png) | ![portfolio](https://user-images.githubusercontent.com/37659754/58154368-491a2e00-7c93-11e9-8900-f5a6abe0a61d.png) | ![Details](https://github.com/dltprjs1/dltprjs1.github.io/blob/main/assets/images/ReadMe/portfolio_Details.png) |
 
 ### 홈페이지
 
