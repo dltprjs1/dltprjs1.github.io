@@ -10,12 +10,12 @@
     <div class="row shuffle-wrapper">
       {% for item in site.data.settings.portfolio-home-items %}
       <div class="col-lg-4 col-6 mb-4 shuffle-item">
+      	<p class="mb-4">{{ item.content }}</p>
         <div class="position-relative rounded hover-wrapper">
           <img src="{{ site.baseurl }}/{{ item.image }}" alt="portfolio-image" style="max-width:350px , max-height:264px" class="img-fluid rounded w-100 d-block">
           <div class="hover-overlay">
             <div class="hover-content">
-              <a class="btn btn-light btn-sm" href="{{ item.url }}">view project</a>
-              <p class="mb-4">{{ item.content }}</p>
+              <a class="btn btn-light btn-sm" href="{{ item.url }}">view project</a>              
             </div>
           </div>
         </div>
