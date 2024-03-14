@@ -1,0 +1,19 @@
+<section class="section">
+  <div class="container">
+    <div class="row justify-content-around">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-title">Auto Trading Server</h2>
+      </div>
+      <div class="col-lg-10 mx-auto testimonial-slider">
+        {% for testimonial5-item in site.data.settings.testimonial5-items %}
+        <!-- slider-item -->
+        <div class="text-center testimonial-content">
+          <img class="img-fluid mb-4 d-inline-block" src="{{ testimonial5-item.image | relative_url }}"
+            alt="{{ testimonial5-item.name }}">
+          <p class="mb-4">{{ testimonial5-item.content }}</p>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
