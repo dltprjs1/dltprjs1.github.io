@@ -122,31 +122,31 @@ education:
 portfolio-home-items:
 - image: assets/images/portfolio/AutoTrading_Server.png
   url: '/autotradingprogram'
-  contents: <h4>자동 선물 프로그램</h4><br> 2024.01.02 ~ 2024.01.26 <br> 1인 개발 <br> Python, Selenium, Socket, 자동화
+  contents: <h4 class="fw-bold ui-serif">자동 선물 프로그램</h4><br> 2024.01.02 ~ 2024.01.26 <br> 1인 개발 <br> Python, Selenium, Socket, 자동화
   
 - image: assets/images/portfolio/AutoTrading_Server.png
   url: '/autotradingserver'
-  contents: <h4>자동 선물 데이터 처리 서버</h4><br> 2024.01.27 ~ 2024.02.15 <br> 1인 개발 <br> Java, Server, Linux, mybatis, Socket
+  contents: <h4 class="fw-bold ui-serif">자동 선물 데이터 처리 서버</h4><br> 2024.01.27 ~ 2024.02.15 <br> 1인 개발 <br> Java, Server, Linux, mybatis, Socket
   
 - image: assets/images/portfolio/AutoTrading_Web.png
   url: '/autotradingweb'
-  contents: <h4>데이터 실시간 시각화 웹 페이지</h4><br> 2024.03.01 ~ 2024.03.11 <br> 1인 개발 <br> Java, Springboot, Socket, 실시간, 집계페이지
+  contents: <h4 class="fw-bold ui-serif">데이터 실시간 시각화 웹 페이지</h4><br> 2024.03.01 ~ 2024.03.11 <br> 1인 개발 <br> Java, Springboot, Socket, 실시간, 집계페이지
   
 - image: assets/images/portfolio/portfolio_Main.png
   url: '/portfol'
-  contents: <h4>포트폴리오</h4><br> 2023.02.15 ~ <br> 1인 개발 <br>html, 자기소개서, 포트폴리오
+  contents: <h4 class="fw-bold ui-serif">포트폴리오</h4><br> 2023.02.15 ~ <br> 1인 개발 <br>html, 자기소개서, 포트폴리오
   
 - image: assets/images/portfolio/SangGYM_Main.png
   url: '/SangGym'
-  contents: <h4>헬스장 홈페이지</h4> <br> 2023.02 ~ 2023.02 <br> 1인 개발 <br> bootstrap, Frontend
+  contents: <h4 class="fw-bold ui-serif">헬스장 홈페이지</h4> <br> 2023.02 ~ 2023.02 <br> 1인 개발 <br> bootstrap, Frontend
   
 - image: assets/images/portfolio/FinalProject_Main.png
   url: '/cowork'
-  contents: <h4>cowork 그룹웨어</h4> <br> 2022.12 ~ 2022.12 <br> 5인 개발 <br> maven, mybatis, Backend 
+  contents: <h4 class="fw-bold ui-serif">cowork 그룹웨어</h4> <br> 2022.12 ~ 2022.12 <br> 5인 개발 <br> maven, mybatis, Backend 
   
 - image: assets/images/portfolio/SemiProject_Main.png
   url: '/challengers'
-  contents: <h4>챌린저스 웹 어플리케이션</h4> <br> 2022.10 ~ 2022.10 <br> 5인 개발 <br> 관리자 페이지, Backend
+  contents: <h4 class="fw-bold ui-serif">챌린저스 웹 어플리케이션</h4> <br> 2022.10 ~ 2022.10 <br> 5인 개발 <br> 관리자 페이지, Backend
 
 portfolio-label:
 - title: JAVA
@@ -157,43 +157,43 @@ portfolio-label:
 portfolio-items:
 - image: assets/images/portfolio/AutoTrading_Server.png
   url: '/autotradingprogram'
-  contents: <h4>자동 선물 프로그램</h4><br> 2024.01.02 ~ 2024.01.26 <br> 1인 개발 <br> Python, Selenium, Socket, 자동화
+  contents: <h4 class="fw-bold ui-serif">자동 선물 프로그램</h4><br> 2024.01.02 ~ 2024.01.26 <br> 1인 개발 <br> Python, Selenium, Socket, 자동화
   portfolio-type:
   - type: Python
   
 - image: assets/images/portfolio/AutoTrading_Server.png
   url: '/autotradingserver'
-  contents: <h4>자동 선물 데이터 처리 서버</h4><br> 2024.01.27 ~ 2024.02.15 <br> 1인 개발 <br> Java, Server, Linux, mybatis, Socket
+  contents: <h4 class="fw-bold ui-serif">자동 선물 데이터 처리 서버</h4><br> 2024.01.27 ~ 2024.02.15 <br> 1인 개발 <br> Java, Server, Linux, mybatis, Socket
   portfolio-type:
   - type: JAVA
 
 - image: assets/images/portfolio/AutoTrading_Web.png
   url: '/autotradingweb'
-  contents: <h4>데이터 실시간 시각화 웹 페이지</h4><br> 2024.03.01 ~ 2024.03.11 <br> 1인 개발 <br> Java, Springboot, Socket, 실시간, 집계페이지
+  contents: <h4 class="fw-bold ui-serif">데이터 실시간 시각화 웹 페이지</h4><br> 2024.03.01 ~ 2024.03.11 <br> 1인 개발 <br> Java, Springboot, Socket, 실시간, 집계페이지
   portfolio-type:
   - type: JAVA
   
 - image: assets/images/portfolio/portfolio_Main.png
   url: '/portfol'
-  contents: <h4>포트폴리오</h4><br> 2023.02.15 ~ <br> 1인 개발 <br>html, 자기소개서, 포트폴리오
+  contents: <h4 class="fw-bold ui-serif">포트폴리오</h4><br> 2023.02.15 ~ <br> 1인 개발 <br>html, 자기소개서, 포트폴리오
   portfolio-type:
   - type: JAVA
 
 - image: assets/images/portfolio/SangGYM_Main.png
   url: '/SangGym'
-  contents: <h4>헬스장 홈페이지</h4> <br> 2023.02 ~ 2023.02 <br> 1인 개발 <br> bootstrap, Frontend
+  contents: <h4 class="fw-bold ui-serif">헬스장 홈페이지</h4> <br> 2023.02 ~ 2023.02 <br> 1인 개발 <br> bootstrap, Frontend
   portfolio-type:
   - type: JAVA
   
 - image: assets/images/portfolio/FinalProject_Main.png
   url: '/cowork'
-  contents: <h4>cowork 그룹웨어</h4> <br> 2022.12 ~ 2022.12 <br> 5인 개발 <br> maven, mybatis, Backend
+  contents: <h4 class="fw-bold ui-serif">cowork 그룹웨어</h4> <br> 2022.12 ~ 2022.12 <br> 5인 개발 <br> maven, mybatis, Backend
   portfolio-type:
   - type: JAVA
   
 - image: assets/images/portfolio/SemiProject_Main.png
   url: '/challengers'
-  contents: <h4>챌린저스 웹 어플리케이션</h4> <br> 2022.10 ~ 2022.10 <br> 5인 개발 <br> 관리자 페이지, Backend
+  contents: <h4 class="fw-bold ui-serif">챌린저스 웹 어플리케이션</h4> <br> 2022.10 ~ 2022.10 <br> 5인 개발 <br> 관리자 페이지, Backend
   portfolio-type:
   - type: JAVA
 
