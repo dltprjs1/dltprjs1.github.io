@@ -316,8 +316,14 @@ autotradingweb-process:
 
 
 testimonial7-items:
-- image: assets/images/portfolio/portfolio_Main.png
-  content: <h4>개별 프로젝트</h4><br>포트폴리오
+- image: assets/images/ReadMe/Portfolio_Main.png
+  content: <h4>개별 프로젝트</h4><br>포트폴리오 Main 페이지입니다. <br>메인화면에는 간단한 자기소개 및 스킬에 대한 능숙도를 %로 나눠놓은 상자가 있으며 간단한 포트폴리오 목록들이 나열되어있습니다.
+- image: assets/images/ReadMe/Portfolio_AboutMe.png
+  content: 포트폴리오 About 페이지 입니다. <br>자기소개 및 경력, 학력을 보여드리고 있습니다.
+- image: assets/images/ReadMe/Portfolio_Skills.png
+  content: 포트폴리오 Skills 페이지 입니다. <br>기술 스택이 나열되어 있습니다.
+- image: assets/images/ReadMe/Portfolio_Portfolio.png
+  content: 포트폴리오 portfolio 페이지 입니다. <br>개인 또는 팀별 개발에 대한 목록들이 나열되어 있습니다. 
   
 portfol-process:
 - icon: assets/images/skills/html5.png
