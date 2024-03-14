@@ -121,9 +121,11 @@ education:
 
 portfolio-home-items:
 - image: assets/images/portfolio/AutoTrading_Server.png
-  url: '/autotrading'
+  url: '/autotrading_program'
+- image: assets/images/portfolio/AutoTrading_Server.png
+  url: '/autotrading_server'
 - image: assets/images/portfolio/AutoTrading_Web.png
-  url: '/autotrading'
+  url: '/autotrading_web'
 - image: assets/images/portfolio/portfolio_Main.png
   url: '/autotrading'
 - image: assets/images/portfolio/SangGYM_Main.png
@@ -141,17 +143,22 @@ portfolio-label:
 
 portfolio-items:
 - image: assets/images/portfolio/AutoTrading_Server.png
-  url: '/autotrading'
+  url: '/autotrading_program'
+  portfolio-type:
+  - type: Python
+  
+- image: assets/images/portfolio/AutoTrading_Server.png
+  url: '/autotrading_server'
   portfolio-type:
   - type: JAVA
 
 - image: assets/images/portfolio/AutoTrading_Web.png
-  url: '/autotrading'
+  url: '/autotrading_web'
   portfolio-type:
   - type: JAVA
   
 - image: assets/images/portfolio/portfolio_Main.png
-  url: '/autotrading'
+  url: '/portfolio-portfolio'
   portfolio-type:
   - type: JAVA
 
