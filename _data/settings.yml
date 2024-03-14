@@ -121,13 +121,13 @@ education:
 
 portfolio-home-items:
 - image: assets/images/portfolio/AutoTrading_Server.png
-  url: '/autotrading_program'
+  url: '/autotradingprogram'
 - image: assets/images/portfolio/AutoTrading_Server.png
-  url: '/autotrading_server'
+  url: '/autotradingserver'
 - image: assets/images/portfolio/AutoTrading_Web.png
-  url: '/autotrading_web'
+  url: '/autotradingweb'
 - image: assets/images/portfolio/portfolio_Main.png
-  url: '/autotrading'
+  url: '/portfol'
 - image: assets/images/portfolio/SangGYM_Main.png
   url: '/SangGym'
 - image: assets/images/portfolio/FinalProject_Main.png
@@ -143,22 +143,22 @@ portfolio-label:
 
 portfolio-items:
 - image: assets/images/portfolio/AutoTrading_Server.png
-  url: '/autotrading_program'
+  url: '/autotradingprogram'
   portfolio-type:
   - type: Python
   
 - image: assets/images/portfolio/AutoTrading_Server.png
-  url: '/autotrading_server'
+  url: '/autotradingserver'
   portfolio-type:
   - type: JAVA
 
 - image: assets/images/portfolio/AutoTrading_Web.png
-  url: '/autotrading_web'
+  url: '/autotradingweb'
   portfolio-type:
   - type: JAVA
   
 - image: assets/images/portfolio/portfolio_Main.png
-  url: '/portfolio-portfolio'
+  url: '/portfol'
   portfolio-type:
   - type: JAVA
 
@@ -242,7 +242,7 @@ testimonial3-items:
 - image: assets/images/portfolio/AutoTrading/Server.png
   content: <h4>개별 프로젝트</h4><br> 자동 선물 프로그램은 파이썬을 사용하여 개발되었으며, 총 23일의 개발 기간이 소요되었습니다. <br>  이 프로그램은 사용자가 설정한 주문 조건에 따라 자동으로 주문을 처리합니다. <br> 프로그램은 소켓 클라이언트를 통해 서버에 주문 정보 및 관련 데이터를 안전하게 전송하며,<br> 이를 통해 사용자는 번거로운 주문 과정을 자동화하여 주문 시간을 절약할 수 있으며, 설정한 조건에 맞추어 자동으로 주문이 처리되기 때문에 사용자의 편의성을 높일 수 있습니다.<br> 자동 선물 프로그램은 소켓 통신을 통해 서버와의 데이터 교환을 실시간으로 처리하여, 효율적이고 안정적인 주문 처리를 보장합니다. 또한 사용자의 민감한 정보를 안전하게 전송하고 처리함으로써 보안에도 신경을 쓰고 있습니다.  
 
-autotrading-program-process:
+autotradingprogram-process:
 - icon: assets/images/skills/python.png
 - icon: assets/images/skills/vscode.png
 - icon: assets/images/skills/mssql.png
@@ -271,7 +271,7 @@ testimonial5-items:
 - image: assets/images/portfolio/AutoTrading/Server.png
   content: <h4>개별 프로젝트</h4><br>자동선물 프로그램 데이터 처리 서버는 자바로 개발되었으며, 총 10일의 개발 기간이 소요되었습니다.<br> 이 서버는 MyBatis 사용하여 데이터베이스와의 상호작용을 관리 <br> 소켓 클라이언트인 자동선물 프로그램에서 수신한 데이터를 가공하여 데이터베이스에 저장 <br> 웹 프로젝트에 실시간으로 자동선물 프로그램의 데이터를 전송합니다.<br> 데이터베이스에 저장하기 전에 데이터베이스 저장 프로시저에서 수신 받은 데이터를 가공하여 5개의 데이터 테이블에 알맞게 저장 또는 업데이트되도록 구성하였습니다.
   
-autotrading-server-process:
+autotradingserver-process:
 - icon: assets/images/skills/java.png
 - icon: assets/images/skills/spring.png
 - icon: assets/images/skills/mybatis.png
@@ -283,7 +283,7 @@ testimonial6-items:
 - image: assets/images/portfolio/AutoTrading/Web.png
   content: <h4>개별 프로젝트</h4><br>소켓 클라이언트로 데이터를 실시간으로 수신하는 웹 프로젝트를 개발하였으며 총 7일의 개발 기간이 소요되었습니다.<br>이 프로젝트의 핵심 기능은 소켓과 웹 소켓을 통해 데이터를 실시간으로 처리하는 것이었습니다. <br>서버와 클라이언트 간의 소켓연동 그리고 Bo와 Fo간의 웹 소켓 연동을 설정하여 데이터의 실시간 전송을 구현하였습니다. <br> 이를 통해 사용자는 실시간으로 데이터를 받아 볼 수 있고, 데이터 처리 및 시각화가 가능했습니다. <br> 또한 프로젝트에서는 데이터의 실시간 집계 기능을 구현하였습니다. <br>서버에서 송신되는 데이터를 클라이언트에서 받아 집계하고, 사용자에게 실시간으로 결과를 제공했습니다. <br>이를 통해 사용자는 데이터의 변화를 실시간으로 모니터링할 수 있었습니다.<br> 자동 선물 프로그램에서 발생할 수 있는 오류를 탐지하기 위해 실시간 에러 탐지 기능을 구현했습니다. 에러를 실시간으로 감지하여 사용자에게 알림을 제공하고, 문제가 해결될 때까지 모니터링할 수 있었습니다.<br> 그리고, 자동선물 프로그램에 대한 주문 조건 설정 기능 또한 추가하였습니다.
   
-autotrading-web-process:
+autotradingweb-process:
 - icon: assets/images/skills/html5.png
 - icon: assets/images/skills/css.png
 - icon: assets/images/skills/js.png
@@ -294,6 +294,18 @@ autotrading-web-process:
 - icon: assets/images/skills/eclipse.png
 - icon: assets/images/skills/github.png
 
+
+testimonial7-items:
+- image: assets/images/portfolio/portfolio_Main.png
+  content: <h4>개별 프로젝트</h4><br>포트폴리오
+  
+portfol-process:
+- icon: assets/images/skills/html5.png
+- icon: assets/images/skills/css.png
+- icon: assets/images/skills/js.png
+- icon: assets/images/skills/bootstrap.png
+- icon: assets/images/skills/eclipse.png
+- icon: assets/images/skills/github.png
 
 contact-title: Contact Info
 contact-email: dltprjs1@naver.com

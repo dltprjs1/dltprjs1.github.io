@@ -1,4 +1,4 @@
-{% if site.data.settings.autotrading-server-process %}
+{% if site.data.settings.portfol-process %}
 <!-- Work Process -->
 <section class="section">
   <div class="container">
@@ -6,15 +6,15 @@
       <div class="col-lg-12 text-center">
         <h2 class="section-title">Skills</h2>
       </div>
-      {% for autotrading in site.data.settings.autotrading-server-process %}
+      {% for portfol in site.data.settings.portfol-process %}
       <div class="col-lg-3 col-md-4 text-center hover-shadow pt-3">
-        <img src="{{ autotrading.icon | relative_url }}" class="mb-4" alt="icon">
+        <img src="{{ portfol.icon | relative_url }}" class="mb-4" alt="icon">
       </div>
       {% endfor %}
     </div>
   </div>
   <div class="col-lg-12 text-center">
-		<p><a class="navbar-brand font-tertiary h3" href="https://github.com/dltprjs1/AutoTradingServer">-> Go To GitHub</a></p>
+		<p><a class="navbar-brand font-tertiary h3" href="https://github.com/dltprjs1/dltprjs1.github.io">-> Go To GitHub</a></p>
   </div>
 </section>
 {% endif %}

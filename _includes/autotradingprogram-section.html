@@ -1,4 +1,4 @@
-{% if site.data.settings.autotrading-program-process %}
+{% if site.data.settings.autotradingprogram-process %}
 <!-- Work Process -->
 <section class="section">
   <div class="container">
@@ -6,9 +6,9 @@
       <div class="col-lg-12 text-center">
         <h2 class="section-title">Skills</h2>
       </div>
-      {% for autotrading in site.data.settings.autotrading-program-process %}
+      {% for autotradingprogram in site.data.settings.autotradingprogram-process %}
       <div class="col-lg-3 col-md-4 text-center hover-shadow pt-3">
-        <img src="{{ autotrading.icon | relative_url }}" class="mb-4" alt="icon">
+        <img src="{{ autotradingprogram.icon | relative_url }}" class="mb-4" alt="icon">
       </div>
       {% endfor %}
     </div>
