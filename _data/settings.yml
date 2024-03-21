@@ -124,11 +124,11 @@ education:
 portfolio-home-items:
 - image: assets/images/portfolio/AutoTrading_Web.png
   url: '/autotradingweb'
-  contents: <h4 class="fw-bold ui-serif">데이터 실시간 시각화 웹 페이지</h4> 2024.03.01 ~ 2024.03.11 <br> 1인 개발 <br> Java, Springboot, Socket, 실시간, 집계페이지
+  contents: <h4 class="fw-bold ui-serif">데이터 실시간 시각화 웹 페이지</h4> 2024.03.01 ~ 2024.03.11 <br> 1인 개발 <br> Java, Docker, Springboot, Socket, 실시간
    
-- image: assets/images/portfolio/AutoTrading_Server.png
+- image: assets/images/portfolio/Docker_AutoServer.png
   url: '/autotradingserver'
-  contents: <h4 class="fw-bold ui-serif">자동 선물 데이터 처리 서버</h4> 2024.01.27 ~ 2024.02.15 <br> 1인 개발 <br> Java, Server, Linux, mybatis, Socket
+  contents: <h4 class="fw-bold ui-serif">자동 선물 데이터 처리 서버</h4> 2024.01.27 ~ 2024.02.15 <br> 1인 개발 <br> Java, Docker, Server, Linux, mybatis, Socket
 
 - image: assets/images/portfolio/AutoTrading_Server.png
   url: '/autotradingprogram'
@@ -159,13 +159,13 @@ portfolio-label:
 portfolio-items:
 - image: assets/images/portfolio/AutoTrading_Web.png
   url: '/autotradingweb'
-  contents: <h4 class="fw-bold ui-serif">데이터 실시간 시각화 웹 페이지</h4> 2024.03.01 ~ 2024.03.11 <br> 1인 개발 <br> Java, Springboot, Socket, 실시간, 집계페이지
+  contents: <h4 class="fw-bold ui-serif">데이터 실시간 시각화 웹 페이지</h4> 2024.03.01 ~ 2024.03.11 <br> 1인 개발  <br> Java, Docker, Server, Linux, mybatis, Socket
   portfolio-type:
   - type: JAVA
  
 - image: assets/images/portfolio/AutoTrading_Server.png
   url: '/autotradingserver'
-  contents: <h4 class="fw-bold ui-serif">자동 선물 데이터 처리 서버</h4> 2024.01.27 ~ 2024.02.15 <br> 1인 개발 <br> Java, Server, Linux, mybatis, Socket
+  contents: <h4 class="fw-bold ui-serif">자동 선물 데이터 처리 서버</h4> 2024.01.27 ~ 2024.02.15 <br> 1인 개발 <br> Java, Docker, Server, Linux, mybatis, Socket
   portfolio-type:
   - type: JAVA
  
@@ -298,6 +298,7 @@ autotradingserver-process:
 - icon: assets/images/skills/spring.png
 - icon: assets/images/skills/mybatis.png
 - icon: assets/images/skills/eclipse.png
+- icon: assets/images/skills/docker.png
 - icon: assets/images/skills/github.png
 
 
