@@ -81,6 +81,8 @@ Tool-process:
   icon: assets/images/skills/intellij.png
 - title: GitHub
   icon: assets/images/skills/github.png
+- title: Docker  
+  icon: assets/images/skills/docker.png
 blog-btn-link: /blog
 skills-title: Skills
 skills:
@@ -312,6 +314,7 @@ autotradingweb-process:
 - icon: assets/images/skills/spring.png
 - icon: assets/images/skills/mybatis.png
 - icon: assets/images/skills/eclipse.png
+- icon: assets/images/skills/docker.png
 - icon: assets/images/skills/github.png
 
 
