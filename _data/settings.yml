@@ -126,7 +126,7 @@ education:
 portfolio-home-items:
 - image: assets/images/portfolio/Zabbix_monitoring_Main.png
   url: '/zabbixmonitoring'
-  contents: <h4 class="fw-bold ui-serif">자빅스 모니터링 모듈</h4> 2024.05.01 ~ 2024.06.07 <br> 1인 개발 <br> Linux, Shell Script, PostgreSQL, Monitoring
+  contents: <h4 class="fw-bold ui-serif">자빅스 모니터링 모듈</h4> 2024.05.01 ~  <br> 1인 개발 <br> Linux, Shell Script, PostgreSQL, Monitoring
 
 - image: assets/images/portfolio/AutoTrading_Web.png
   url: '/autotradingweb'
@@ -165,12 +165,12 @@ portfolio-label:
 portfolio-items:
 - image: assets/images/portfolio/Zabbix_monitoring_Main.png
   url: '/zabbixmonitoring'
-  contents: <h4 class="fw-bold ui-serif">자빅스 모니터링 모듈</h4> 2024.05.01 ~ 2024.06.07 <br> 1인 개발 <br> Linux, Shell Script, PostgreSQL, Monitoring
+  contents: <h4 class="fw-bold ui-serif">자빅스 모니터링 모듈</h4> 2024.05.01 ~ <br> 1인 개발 <br> Linux, Shell Script, PostgreSQL, Monitoring
   -type: JAVA
 
 - image: assets/images/portfolio/AutoTrading_Web.png
   url: '/autotradingweb'
-  contents: <h4 class="fw-bold ui-serif">데이터 실시간 시각화 웹 페이지</h4> 2024.03.01 ~ 2024.03.11 <br> 1인 개발  <br> Java, Docker, Springboot, WebSocket
+  contents: <h4 class="fw-bold ui-serif">데이터 실시간 시각화 웹 페이지</h4> 2024.03.01 ~ 2024.03.17 <br> 1인 개발  <br> Java, Docker, Springboot, WebSocket
   portfolio-type:
   - type: JAVA
  
