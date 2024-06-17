@@ -354,13 +354,13 @@ portfol-process:
 
 testimonial8-items:
 - image: assets/images/portfolio/Zabbix/zabbix_login.png
-  content: 자빅스 모니터링 웹서비스 로그인 화면 입니다. <br> URL = <a href="http://39.115.190.122/zabbix">http://39.115.190.122/zabbix</a> <br> ID = Guest <br> PassWords = test7777 입니다.
+  content: 자빅스 모니터링 웹서비스 로그인 화면 입니다. <br> URL = <a href="http://39.115.190.122/zabbix">http://39.115.190.122/zabbix</a> <br> ID = Guest <br> PassWord = test7777<br>입니다.
 - image: assets/images/portfolio/Zabbix/Zabbix_monitoring.png
   content: <h4>개별 프로젝트</h4><br>Zabbix 모니터링 Main 페이지입니다. <br>자빅스 모듈의 웹서비스 메인화면 입니다. <br> OS는 Rocky9 Linux, DB는 PostgreSQL을 사용하였습니다. <br> 자빅스의 구성은 서버, 프록시 서버, 에이전트로 구성되어 있습니다. 
 - image: assets/images/portfolio/Zabbix/Zabbix_Host.png
   content: 호스트 정보 시각화 페이지 입니다. <br>호스트에 대한 정보를 권한에 따라 수정 또는 확인 할 수 있으며, 해당 호스트는 자빅스 에이전트 소프트웨어를 통해 등록이 가능합니다.<br>자빅스 에이전트는 네트워크 장치나 서버와 같은 모니터링 대상에서 데이터를 수집하여 자빅스 서버로 전송하는 소프트웨어입니다. <br> 위 이미지에서의 호스트는 Windows,Docker,Zabbix Server이며, 모니터링 어플리케이션은 Zabbix Server, Windows ,Linux, MSSQL, Apache, Docker이고, 해당 어플리케이션의 수백가지 아이템을 모니터링 하고 있습니다. <br> ※ Guest의 경우 하나의 호스트(Zabbix Server)만 확인이 가능합니다.
 - image: assets/images/portfolio/Zabbix/Zabbix_Data.png
-  content: 모니터링 아이템의 대표적인 데이터로 CPU 사용량을 그래프화 한 페이지입니다. <br> 그래프화 또는 테이블화 하여 수백가지의 아이템을 모니터링 할 수 있으며 <br> 해당 아이템이 어느 수준을 벗어날 경우 실행 되는 트리거 또한 커스텀이 가능합니다. <br 대표적인 트리거의 예시로는 SMS 또는 Telegram ChatBot이 있습니다.
+  content: 모니터링 아이템의 대표적인 데이터로 CPU 사용량을 그래프화 한 페이지입니다. <br> 그래프화 또는 테이블화 하여 수백가지의 아이템을 모니터링 할 수 있으며 <br> 해당 아이템이 어느 수준을 벗어날 경우 실행 되는 트리거 또한 커스텀이 가능합니다. <br> 대표적인 트리거의 예시로는 Shell Script, SMS 또는 Telegram ChatBot이 있습니다.
   
 zabbixmonitoring-process:
 - icon: assets/images/skills/Linux.png
