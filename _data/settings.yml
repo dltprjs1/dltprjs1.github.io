@@ -122,6 +122,10 @@ education:
   organization: 이과계열
 
 portfolio-home-items:
+- image: assets/images/portfolio/Zabbix_monitoring_Main.png
+  url: '/zabbixmonitoring'
+  contents: <h4 class="fw-bold ui-serif">자빅스 모니터링 모듈</h4> 2024.05.01 ~ 2024.06.07 <br> 1인 개발 <br> Linux, Shell Script, PostgreSQL, Monitoring
+
 - image: assets/images/portfolio/AutoTrading_Web.png
   url: '/autotradingweb'
   contents: <h4 class="fw-bold ui-serif">데이터 실시간 시각화 웹 페이지</h4> 2024.03.01 ~ 2024.03.11 <br> 1인 개발 <br> Java, Docker, Springboot, Socket, 실시간
@@ -157,6 +161,11 @@ portfolio-label:
   type: PYTHON
 
 portfolio-items:
+- image: assets/images/portfolio/Zabbix_monitoring_Main.png
+  url: '/zabbixmonitoring'
+  contents: <h4 class="fw-bold ui-serif">자빅스 모니터링 모듈</h4> 2024.05.01 ~ 2024.06.07 <br> 1인 개발 <br> Linux, Shell Script, PostgreSQL, Monitoring
+  -type: JAVA
+
 - image: assets/images/portfolio/AutoTrading_Web.png
   url: '/autotradingweb'
   contents: <h4 class="fw-bold ui-serif">데이터 실시간 시각화 웹 페이지</h4> 2024.03.01 ~ 2024.03.11 <br> 1인 개발  <br> Java, Docker, Server, Linux, mybatis, Socket
@@ -304,7 +313,7 @@ autotradingserver-process:
 
 testimonial6-items:
 - image: assets/images/portfolio/AutoTrading/AutoTrading_Main.png
-  content: <h4>개별 프로젝트</h4><br>소켓 클라이언트로 데이터를 실시간으로 수신하는 웹 프로젝트를 개발하였으며 총 7일의 개발 기간이 소요되었습니다.<br>이 프로젝트의 핵심 기능은 소켓과 웹 소켓을 통해 데이터를 실시간으로 처리하는 것이었습니다. <br>서버와 클라이언트 간의 소켓연동 그리고 Bo와 Fo간의 웹 소켓 연동을 설정하여 데이터의 실시간 전송을 구현하였습니다. <br> 이를 통해 사용자는 실시간으로 데이터를 받아 볼 수 있고, 데이터 처리 및 시각화가 가능했습니다. <br> 또한 프로젝트에서는 데이터의 실시간 집계 기능을 구현하였습니다. <br>서버에서 송신되는 데이터를 클라이언트에서 받아 집계하고, 사용자에게 실시간으로 결과를 제공했습니다. <br>이를 통해 사용자는 데이터의 변화를 실시간으로 모니터링할 수 있었습니다.<br> 자동 선물 프로그램에서 발생할 수 있는 오류를 탐지하기 위해 실시간 에러 탐지 기능을 구현했습니다. 에러를 실시간으로 감지하여 사용자에게 알림을 제공하고, 문제가 해결될 때까지 모니터링할 수 있었습니다.<br> 그리고, 자동선물 프로그램에 대한 주문 조건 설정 기능 또한 추가하였습니다.
+  content: <h4>개별 프로젝트</h4><br>소켓 클라이언트로 데이터를 실시간으로 수집하는 웹 프로젝트를 개발하였으며 총 7일의 개발 기간이 소요되었습니다.<br>이 프로젝트의 핵심 기능은 소켓과 웹 소켓을 통해 데이터를 실시간으로 처리하는 것이었습니다. <br>서버와 클라이언트 간의 소켓연동 그리고 Bo와 Fo간의 웹 소켓 연동을 설정하여 데이터의 실시간 전송을 구현하였습니다. <br> 이를 통해 사용자는 실시간으로 데이터를 받아 볼 수 있고, 데이터 처리 및 시각화가 가능했습니다. <br> 또한 프로젝트에서는 데이터의 실시간 집계 기능을 구현하였습니다. <br>서버에서 송신되는 데이터를 클라이언트에서 받아 집계하고, 사용자에게 실시간으로 결과를 제공했습니다. <br>이를 통해 사용자는 데이터의 변화를 실시간으로 모니터링할 수 있었습니다.<br> 자동 선물 프로그램에서 발생할 수 있는 오류를 탐지하기 위해 실시간 에러 탐지 기능을 구현했습니다. 에러를 실시간으로 감지하여 사용자에게 알림을 제공하고, 문제가 해결될 때까지 모니터링할 수 있었습니다.<br> 그리고, 자동선물 프로그램에 대한 주문 조건 설정 기능 또한 추가하였습니다.
 - image: assets/images/portfolio/AutoTrading/AutoTrading_Charts.png
   content: 차트 페이지 입니다. <br> 1. 30분마다 초기화 및 업데이트 진행 되는 차트 <br> 2. 거래에 따른 보유금액 변동 <br> 3. 금일 에러 분류에 따른 차트로 구성되어 있습니다. 
 - image: assets/images/portfolio/AutoTrading/AutoTrading_Table.png
@@ -342,6 +351,22 @@ portfol-process:
 - icon: assets/images/skills/bootstrap.png
 - icon: assets/images/skills/eclipse.png
 - icon: assets/images/skills/github.png
+
+testimonial8-items:
+- image: assets/images/portfolio/Zabbix/Zabbix_login.png
+  content: 자빅스 모니터링 웹서비스 로그인 화면 입니다. <br> URL = <a>http://39.115.190.122/zabbix</a> <br> ID = Guest <br> PassWords = test7777 입니다.
+- image: assets/images/portfolio/Zabbix/Zabbix_monitoring.png
+  content: <h4>개별 프로젝트</h4><br>Zabbix 모니터링 Main 페이지입니다. <br>자빅스 모듈의 웹서비스 메인화면 입니다. <br> OS는 Rocky9 Linux, DB는 PostgreSQL을 사용하였습니다. <br> 자빅스의 구성은 서버, 프록시 서버, 에이전트로 구성되어 있습니다. 
+- image: assets/images/portfolio/Zabbix/Zabbix_Host.png
+  content: 호스트 정보 시각화 페이지 입니다. <br>호스트에 대한 정보를 권한에 따라 수정 또는 확인 할 수 있으며, 해당 호스트는 자빅스 에이전트 소프트웨어를 통해 등록이 가능합니다.<br>자빅스 에이전트는 네트워크 장치나 서버와 같은 모니터링 대상에서 데이터를 수집하여 자빅스 서버로 전송하는 소프트웨어입니다. <br> 위 이미지에서의 호스트는 Windows,Docker,Zabbix Server이며, 모니터링 어플리케이션은 Zabbix Server, Windows ,Linux, MSSQL, Apache, Docker에서 여러 수백가지 아이템을 모니터링 하고 있습니다. <br> ※ Guest의 경우 하나의 호스트(Zabbix Server)만 확인이 가능합니다.
+- image: assets/images/portfolio/Zabbix/Zabbix_Data.png
+  content: 모니터링 아이템의 대표적인 데이터로 CPU 사용량을 그래프화 한 페이지입니다. <br> 그래프화 또는 테이블화 하여 수백가지의 아이템을 모니터링 할 수 있으며 <br> 해당 아이템이 어느 수준을 벗어날 경우 실행 되는 트리거 또한 커스텀이 가능합니다. <br 대표적인 트리거의 예시로는 SMS 또는 Telegram ChatBot이 있습니다.
+  
+zabbixmonitoring-process:
+- icon: assets/images/skills/Linux.png
+- icon: assets/images/skills/PostgreSQL.png
+- icon: assets/images/skills/apache.png
+- icon: assets/images/skills/php.png
 
 contact-title: Contact Info
 contact-email: dltprjs1@naver.com

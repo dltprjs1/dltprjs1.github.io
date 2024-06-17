@@ -1,0 +1,17 @@
+{% if site.data.settings.zabbixmonitoring-process %}
+<!-- Work Process -->
+<section class="section">
+  <div class="container">
+    <div class="row justify-content-around">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-title">Skills</h2>
+      </div>
+      {% for zabbixmonitoring in site.data.settings.zabbixmonitoring-process %}
+      <div class="col-lg-3 col-md-4 text-center hover-shadow pt-3">
+        <img src="{{ zabbixmonitoring.icon | relative_url }}" class="mb-4" alt="icon">
+      </div>
+      {% endfor %}
+    </div>
+  </div>  
+</section>
+{% endif %}
