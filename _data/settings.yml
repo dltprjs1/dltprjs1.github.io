@@ -356,7 +356,7 @@ portfol-process:
 
 testimonial8-items:
 - image: assets/images/portfolio/Zabbix/zabbix_login.png
-  content: 자빅스 모니터링 웹서비스 로그인 화면 입니다. <br> URL = <a href="http://39.115.190.122/zabbix">http://39.115.190.122/zabbix</a> <br> ID = Guest <br> PassWord = test7777<br>입니다. <h4>※Guest 유저의 경우 이용 불가능한 기능이 다수 있습니다.</h4>
+  content: 자빅스 모니터링 웹서비스 로그인 화면 입니다. <br> URL = <a href="http://www.seza.duckdns.org/">http://www.seza.duckdns.org/</a> <br> ID = Guest <br> PassWord = test7777<br>입니다. <h4>※Guest 유저의 경우 이용 불가능한 기능이 다수 있습니다.</h4>
 - image: assets/images/portfolio/Zabbix/Zabbix_monitoring.png
   content: <h4>개별 프로젝트</h4><br>Zabbix 모니터링 Main 페이지입니다. <br>자빅스 모듈의 웹서비스 메인화면 입니다. <br> OS는 Rocky9 Linux, DB는 PostgreSQL을 사용하였습니다. <br> 자빅스의 구성은 서버, 프록시 서버, 에이전트로 구성되어 있습니다. 
 - image: assets/images/portfolio/Zabbix/Zabbix_Host.png
