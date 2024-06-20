@@ -363,7 +363,8 @@ testimonial8-items:
   content: 호스트 정보 시각화 페이지 입니다. <br>호스트에 대한 정보를 권한에 따라 수정 또는 확인 할 수 있으며, 해당 호스트는 자빅스 에이전트 소프트웨어를 통해 등록이 가능합니다.<br>자빅스 에이전트는 네트워크 장치나 서버와 같은 모니터링 대상에서 데이터를 수집하여 자빅스 서버로 전송하는 소프트웨어입니다. <br> 위 이미지에서의 호스트는 Windows,Docker,Zabbix Server이며, 모니터링 어플리케이션은 Zabbix Server, Windows ,Linux, MSSQL, Apache, Docker이고, 해당 어플리케이션의 수백가지 아이템을 모니터링 하고 있습니다. <br> <h4>※Guest의 경우 하나의 호스트(Zabbix Server)만 확인이 가능합니다.</h4>
 - image: assets/images/portfolio/Zabbix/Zabbix_Data.png
   content: 모니터링 아이템의 대표적인 데이터로 CPU 사용량을 그래프화 한 페이지입니다. <br> 그래프화 또는 테이블화 하여 수백가지의 아이템을 모니터링 할 수 있으며 <br> 해당 아이템이 어느 수준을 벗어날 경우 실행 되는 트리거 또한 커스텀이 가능합니다. <br> 대표적인 트리거의 예시로는 Shell Script, SMS 또는 Telegram ChatBot이 있습니다.
-  
+- image: assets/images/portfolio/Zabbix/Zabbix_SSL.png
+  content: Certbot 모듈의 Webroot 방법으로 SSL인증서 생성하였습니다. SSL 적용 Apache 버전은 2.4버전입니다.
 zabbixmonitoring-process:
 - icon: assets/images/skills/Linux.png
 - icon: assets/images/skills/PostgreSQL.png
