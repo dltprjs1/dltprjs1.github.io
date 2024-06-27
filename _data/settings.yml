@@ -124,6 +124,11 @@ education:
   organization: 이과계열
 
 portfolio-home-items:
+
+- image: assets/images/portfolio/Oauth2.png
+  url: '/oauth2login'
+  contents: <h4 class="fw-bold ui-serif">Oauth2 로그인</h4> 2024.05.01 ~  <br> 1인 개발 <br> Java, Node.js, React, JWT, Qauth2, Spring Security 
+
 - image: assets/images/portfolio/Zabbix_monitoring_Main.png
   url: '/zabbixmonitoring'
   contents: <h4 class="fw-bold ui-serif">자빅스 모니터링 모듈</h4> 2024.05.01 ~  <br> 1인 개발 <br> Linux, Shell Script, PostgreSQL, Monitoring
@@ -163,6 +168,12 @@ portfolio-label:
   type: PYTHON
 
 portfolio-items:
+
+- image: assets/images/portfolio/Oauth2.png
+  url: '/Oauth2Login'
+  contents: <h4 class="fw-bold ui-serif">Oauth2 로그인</h4> 2024.05.01 ~  <br> 1인 개발 <br> Java, Node.js, React, JWT, Qauth2, Spring Security 
+  -type: JAVA
+
 - image: assets/images/portfolio/Zabbix_monitoring_Main.png
   url: '/zabbixmonitoring'
   contents: <h4 class="fw-bold ui-serif">자빅스 모니터링 모듈</h4> 2024.05.01 ~ <br> 1인 개발 <br> Linux, Shell Script, PostgreSQL, Monitoring
@@ -370,6 +381,24 @@ zabbixmonitoring-process:
 - icon: assets/images/skills/PostgreSQL.png
 - icon: assets/images/skills/apache.png
 - icon: assets/images/skills/php.png
+
+testimonial9-items:
+- image: assets/images/portfolio/Oauth2/Oauth2SignIn.png
+  content: <h4>개별 프로젝트</h4><br> Node.js와 Java를 통해 로그인 API, 로그인 웹페이지를 개발 하였습니다. 개발 기간 대략 1개월 소요되었습니다.<br> 이 프로젝트는 자바(Spring Boot)와 Node.js(React, TypeScript)를 활용하여 Oauth2 인증 방식을 통한 로그인 시스템을 구축한 것입니다. <br> 백엔드에서는 Oauth2 프로토콜을 사용하여 안전하고 효율적인 사용자 인증 API를 제공하고, 프론트엔드에서는 로그인 인터페이스를 제공합니다.
+- image: assets/images/portfolio/Oauth2/Oauth2SignUp.png
+  content: 로그인 화면입니다. <br> 사용자 인터페이스는 React 컴포넌트를 활용하여 구현하였으며, 백엔드 자바 API와의 통신을 위해 Axios를 사용하였습니다. <br> 또한, SMTP를 사용하여 회원가입 시 인증 코드를 이메일로 발송하는 기능도 포함되어 있습니다. 
+- image: assets/images/portfolio/Oauth2/Oauth2KakaoSignIn.png
+  content: Social Network 로그인 방식은 Kakao와 naver로 구분되며 <br> 해당 페이지는 로그인 또는 회원가입 페이지에서 카카오 아이콘을 누를 경우 httpSecurity Configure에서 매핑한 페이지로 이동하며 카카오 로그인 화면이 제공됩니다. 
+- image: assets/images/portfolio/Oauth2/Oauth2NaverSignIn.png
+  content: 위와 같은 방식으로 제공된 Naver 화면입니다.
+- image: assets/images/portfolio/Oauth2/Oauth2Main.png
+  content: SocialNetwork 서버에서 제공해준 code와 status로 User Information을 반환 받아 JPA를 활용하여 MSSQL User테이블에 저장 합니다. <br> 이후 Node에서 Token값과 ExpirationTime을 저장 후 자동 선물 웹서버로 접속됩니다.
+oauth2login-process:
+- icon: assets/images/skills/java.png
+- icon: assets/images/skills/node.png
+- icon: assets/images/skills/react.png
+- icon: assets/images/skills/mssql.png
+- icon: assets/images/skills/Linux.png
 
 contact-title: Contact Info
 contact-email: dltprjs1@naver.com
