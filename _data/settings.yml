@@ -35,53 +35,47 @@ work-process:
 - title: (주)넷틴스
   icon: assets/images/experience/icon-2.png
   content: POS 프로그램 유지보수 및 개발 <br> VAN사 결제 연동 개발 및 유지보수 <br> POS 관제 서비스 개발 및 유지보수 <br> 2023.03 - 2024.03
-Language-process:
-- title: Java
-  icon: assets/images/skills/java.png
-- title: Python
-  icon: assets/images/skills/python.png
-- title: delphi
-  icon: assets/images/skills/delphi.png
-FrontEnd-process:
-- title: HTML5
-  icon: assets/images/skills/html5.png
-- title: CSS
-  icon: assets/images/skills/css.png
-- title: JavaScript(Jquery)
-  icon: assets/images/skills/js.png
-- title: BootStrap
-  icon: assets/images/skills/bootstrap.png
 BackEnd-process:
-- title: Spring
-  icon: assets/images/skills/spring.png
-- title: Spring FrameWork
-  icon: assets/images/skills/spring.png
+- title: Java
+- title: Python
+- title: Node.js
+- title: C++
+- title: Delphi
+- title: Spring Framework
+- title: Spring Boot
+- title: JPA
 - title: MyBatis
-  icon: assets/images/skills/mybatis.png
-- title: SQL/PL
-  icon: assets/images/skills/sql.png
-DataBase-process:
+- title: NestJS
+- title: Socket
+- title: WebSocket
+- title: RestAPI
+- title: OAuth2.0
+- title: JWT
+Data-process:
+- title: PL/SQL
 - title: Oracle
-  icon: assets/images/skills/oracle.png
 - title: MSSQL
-  icon: assets/images/skills/mssql.png
 - title: MYSQL
-  icon: assets/images/skills/mysql.png
 - title: PostgreSQL
-  icon: assets/images/skills/PostgreSQL.png
-Tool-process:
-- title: Eclipse
-  icon: assets/images/skills/eclipse.png
-- title: STS(Spring-Tool-Suite)
-  icon: assets/images/skills/spring.png
-- title: Visual Studio Code
-  icon: assets/images/skills/vscode.png
-- title: IntelliJ
-  icon: assets/images/skills/intellij.png
-- title: GitHub
-  icon: assets/images/skills/github.png
-- title: Docker  
-  icon: assets/images/skills/docker.png
+- title: BigQuery
+- title: Salesforce CDP
+- title: GA4
+- title: Tableau
+- title: Pandas
+Infra-process:
+- title: AWS(EC2, S3)
+- title: Linux(CentOS 9, Ubuntu)
+- title: Windows Server
+- title: MacOS
+- title: Dockers
+- title: Jenkins
+- title: GitHub Actions
+- title: Zabbix
+- title: SNMP
+- title: Shell Script
+- title: Launchd
+- title: SSH
+- title: DNS / DDNS
 blog-btn-link: /blog
 skills-title: Skills
 skills:
