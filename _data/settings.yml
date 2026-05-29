@@ -119,6 +119,17 @@ education:
 - name: 칠원고등학교
   date: 2009.3 - 2012.2
   organization: 이과계열
+certification-title: Certificate
+certification:
+- name: 리눅스 마스터 2급
+  data: 2026.04
+  organization: 한국정보통신진흥협회
+- name: 네트워크 관리사 2급
+  data: 2026.04
+  organization: 한국정보통신자격협회
+- name: SQLD
+  data: 2026.06
+  organization: 한국데이터산업진흥원
 
 portfolio-home-items:
 
