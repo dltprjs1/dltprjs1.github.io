@@ -1,83 +1,113 @@
-{% if site.data.settings.Language-process %}
-<!-- Work Process -->
-<section class="section">
-  <div class="container">
-    <div class="row justify-content-around">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-title">Language</h2>
-      </div>
-      {% for Language in site.data.settings.Language-process %}
-      <div class="col-lg-3 col-md-4 text-center hover-shadow pt-3">
-        <img src="{{ Language.icon | relative_url }}" class="mb-4" alt="icon">
-        <h4 class="mb-4">{{ Language.title }}</h4>
-      </div>
-      {% endfor %}
+<div class="container mt-4">
+  <div class="mb-4">
+    <h4 class="fw-bold mb-3">1. 백엔드 (Backend)</h4>
+    
+    <div class="mb-2">
+      <span class="fw-semibold me-2 text-muted">사용 언어:</span>
+      <span class="badge bg-primary mb-1">Java</span>
+      <span class="badge bg-primary mb-1">Python</span>
+      <span class="badge bg-primary mb-1">JavaScript</span>
+      <span class="badge bg-primary mb-1">Node.js</span>
+      <span class="badge bg-primary mb-1">C++</span>
+      <span class="badge bg-primary mb-1">Delphi</span>
     </div>
-  </div>
-</section>
+    
+    <div class="mb-2">
+      <span class="fw-semibold me-2 text-muted">프레임워크:</span>
+      <span class="badge bg-success mb-1">Spring Framework</span>
+      <span class="badge bg-success mb-1">Spring Boot</span>
+      <span class="badge bg-success mb-1">Spring Security</span>
+      <span class="badge bg-success mb-1">JPA</span>
+      <span class="badge bg-success mb-1">MyBatis</span>
+      <span class="badge bg-success mb-1">NestJS</span>
+    </div>
+    
+    <div class="mb-2">
+      <span class="fw-semibold me-2 text-muted">통신/인증:</span>
+      <span class="badge bg-info text-dark mb-1">Socket</span>
+      <span class="badge bg-info text-dark mb-1">WebSocket</span>
+      <span class="badge bg-info text-dark mb-1">Socket.IO</span>
+      <span class="badge bg-info text-dark mb-1">RestAPI</span>
+      <span class="badge bg-info text-dark mb-1">OAuth 2.0</span>
+      <span class="badge bg-info text-dark mb-1">JWT</span>
+    </div>
 
-<section class="section">
-  <div class="container">
-    <div class="row justify-content-around">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-title">FrontEnd</h2>
-      </div>
-      {% for FrontEnd in site.data.settings.FrontEnd-process %}
-      <div class="col-lg-3 col-md-4 text-center hover-shadow pt-3">
-        <img src="{{ FrontEnd.icon | relative_url }}" class="mb-4" alt="icon">
-        <h4 class="mb-4">{{ FrontEnd.title }}</h4>
-      </div>
-      {% endfor %}
+    <div class="mb-2">
+      <span class="fw-semibold me-2 text-muted">외부 연동/AI:</span>
+      <span class="badge bg-secondary mb-1">Claude API / Claude Code</span>
+      <span class="badge bg-secondary mb-1">Naver Open API</span>
+      <span class="badge bg-secondary mb-1">Binance API</span>
+      <span class="badge bg-secondary mb-1">Tistory API</span>
+      <span class="badge bg-secondary mb-1">Kakao Map API</span>
+      <span class="badge bg-secondary mb-1">DirectSend API</span>
     </div>
   </div>
-</section>
 
-<section class="section">
-  <div class="container">
-    <div class="row justify-content-around">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-title">BackEnd</h2>
-      </div>
-      {% for BackEnd in site.data.settings.BackEnd-process %}
-      <div class="col-lg-3 col-md-4 text-center hover-shadow pt-3">
-        <img src="{{ BackEnd.icon | relative_url }}" class="mb-4" alt="icon">
-        <h4 class="mb-4">{{ BackEnd.title }}</h4>
-      </div>
-      {% endfor %}
-    </div>
-  </div>
-</section>
+  <hr>
 
-<section class="section">
-  <div class="container">
-    <div class="row justify-content-around">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-title">DataBase</h2>
-      </div>
-      {% for DataBase in site.data.settings.DataBase-process %}
-      <div class="col-lg-3 col-md-4 text-center hover-shadow pt-3">
-        <img src="{{ DataBase.icon | relative_url }}" class="mb-4" alt="icon">
-        <h4 class="mb-4">{{ DataBase.title }}</h4>
-      </div>
-      {% endfor %}
+  <div class="mb-4">
+    <h4 class="fw-bold mb-3">2. 인프라 (Infrastructure)</h4>
+    
+    <div class="mb-2">
+      <span class="fw-semibold me-2 text-muted">서버/클라우드:</span>
+      <span class="badge bg-dark mb-1">AWS(EC2, S3)</span>
+      <span class="badge bg-dark mb-1">Linux(CentOS 9)</span>
+      <span class="badge bg-dark mb-1">macOS</span>
+      <span class="badge bg-dark mb-1">Windows Server</span>
     </div>
-  </div>
-</section>
 
-<section class="section">
-  <div class="container">
-    <div class="row justify-content-around">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-title">Tool</h2>
-      </div>
-      {% for Tool in site.data.settings.Tool-process %}
-      <div class="col-lg-3 col-md-4 text-center hover-shadow pt-3">
-        <img src="{{ Tool.icon | relative_url }}" class="mb-4" alt="icon">
-        <h4 class="mb-4">{{ Tool.title }}</h4>
-      </div>
-      {% endfor %}
+    <div class="mb-2">
+      <span class="fw-semibold me-2 text-muted">DevOps/배포:</span>
+      <span class="badge bg-danger mb-1">Docker</span>
+      <span class="badge bg-danger mb-1">Jenkins</span>
+      <span class="badge bg-danger mb-1">GitHub Actions</span>
+    </div>
+
+    <div class="mb-2">
+      <span class="fw-semibold me-2 text-muted">모니터링/자동화:</span>
+      <span class="badge bg-warning text-dark mb-1">Zabbix</span>
+      <span class="badge bg-warning text-dark mb-1">SNMP</span>
+      <span class="badge bg-warning text-dark mb-1">Shell Script</span>
+      <span class="badge bg-warning text-dark mb-1">launchd</span>
+      <span class="badge bg-warning text-dark mb-1">Windows 작업 스케줄러</span>
+    </div>
+
+    <div class="mb-2">
+      <span class="fw-semibold me-2 text-muted">네트워크/보안:</span>
+      <span class="badge bg-secondary mb-1">SSH 터널링</span>
+      <span class="badge bg-secondary mb-1">DNS / DDNS</span>
     </div>
   </div>
-</section>
-<!-- ./Work Process -->
-{% endif %}
+
+  <hr>
+
+  <div class="mb-4">
+    <h4 class="fw-bold mb-3">3. 데이터 (Data)</h4>
+    
+    <div class="mb-2">
+      <span class="fw-semibold me-2 text-muted">데이터베이스:</span>
+      <span class="badge bg-primary mb-1">MSSQL</span>
+      <span class="badge bg-primary mb-1">MySQL</span>
+      <span class="badge bg-primary mb-1">PostgreSQL</span>
+      <span class="badge bg-primary mb-1">Oracle</span>
+    </div>
+
+    <div class="mb-2">
+      <span class="fw-semibold me-2 text-muted">쿼리 언어:</span>
+      <span class="badge bg-info text-dark mb-1">SQL</span>
+      <span class="badge bg-info text-dark mb-1">PL/SQL</span>
+    </div>
+
+    <div class="mb-2">
+      <span class="fw-semibold me-2 text-muted">데이터 웨어하우스:</span>
+      <span class="badge bg-success mb-1">BigQuery</span>
+    </div>
+
+    <div class="mb-2">
+      <span class="fw-semibold me-2 text-muted">수집/분석/시각화:</span>
+      <span class="badge bg-warning text-dark mb-1">Salesforce CDP</span>
+      <span class="badge bg-warning text-dark mb-1">GA4</span>
+      <span class="badge bg-warning text-dark mb-1">Tableau</span>
+    </div>
+  </div>
+</div>
