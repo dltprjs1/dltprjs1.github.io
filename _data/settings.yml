@@ -17,7 +17,7 @@ menu:
   link: /contact
 google-analytics: null
 hero:
-  hero-title: 책임감을 가지고<br> 충실히 임하는 <br> 개발자 이세건입니다.
+  hero-title: 백엔드 인프라 데이터를 아우르는 <br> 융합형 엔지니어 <br> 이세건입니다.
 social:
 - icon: ti-facebook
   link: '#'
@@ -25,16 +25,16 @@ social:
   link: https://www.instagram.com/?next=%2F
 - icon: ti-github
   link: https://github.com/dltprjs1
-blurb: 어려운 난관에 맞닥뜨려도 해결할 때까지 놓지 않는 개발자 이세건입니다. <br> 끊임없이 노력하는 개발자가 되겠습니다.<br> 어느 곳에 가더라도 함께하는 개발자가 되겠습니다.
+blurb: 어려운 난관에 맞닥뜨려도 끝까지 파고들어 기필코 해결하며, <br> 끊임없이 성장하며 최적의 해답을 찾아내고 <br> 어느 조직에서든 팀과 융합하여 시너지를 내는 하이브리드 엔지니어 이세건입니다.
 blurb-btn-link: /about
 blurb-btn-name: know more
 work-process:
 - title: (주)에이샵
   icon: assets/images/experience/icon-1.png
-  content: ERP 연동 API 백엔드 개발 및 유지보수, 고객 행동 데이터 분석 파이프라인 설계 및 개발, 마케팅 인사이트 데이터 추출, 이커머스 WAS 유지보수 <br> 2024.07 - 재직중
+  content: ERP 연동 API 백엔드 개발 및 유지보수 <br> 고객 행동 데이터 분석 파이프라인 설계 및 개발 <br> 마케팅 인사이트 데이터 추출 <br> 이커머스 WAS 유지보수 <br> 2024.07 - 재직중
 - title: (주)넷틴스
   icon: assets/images/experience/icon-2.png
-  content: POS 프로그램 유지보수 및 개발, VAN사 결제 연동 개발 및 유지보수, POS 관제 서비스 개발 및 유지보수 <br> 2023.03 - 2024.03
+  content: POS 프로그램 유지보수 및 개발<br> VAN사 결제 연동 개발 및 유지보수<br> POS 관제 서비스 개발 및 유지보수<br> 2023.03 - 2024.03
 Language-process:
 - title: Java
   icon: assets/images/skills/java.png
@@ -110,9 +110,9 @@ experience:
   organization: THEMEFISHER
 education-title: Education
 education:
-- name: KH정보교육원
-  date: 2021.7 - 2022.12
-  organization: (스마트웹&콘텐츠개발)스마트웹&콘텐츠 웹애플리케이션 개발자 양성과정
+- name: 한국방송 통신대학교
+  date: 2024.3 - 2028.2
+  organization: 컴퓨터 과학과
 - name: 경남도립 남해대학교
   date: 2012.3 - 2014.6
   organization: 메카트로닉스과
