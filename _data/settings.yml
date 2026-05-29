@@ -35,7 +35,7 @@ work-process:
 - title: (주)넷틴스
   icon: assets/images/experience/icon-2.png
   content: POS 프로그램 유지보수 및 개발 <br> VAN사 결제 연동 개발 및 유지보수 <br> POS 관제 서비스 개발 및 유지보수 <br> 2023.03 - 2024.03
-BackEnd-process:
+Backend-process:
 - title: Java
 - title: Python
 - title: Node.js
