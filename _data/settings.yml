@@ -79,15 +79,15 @@ Infra-process:
 blog-btn-link: /blog
 skills-title: Skills
 skills:
-- name: FrontEnd
-  color: '#9473e6'
-  value: 50%
 - name: BackEnd
-  color: '#bdecf6'
+  color: '#9473e6'
   value: 80%
-- name: DataBase(DB)
+- name: InfraStructure
+  color: '#bdecf6'
+  value: 70%
+- name: Data
   color: '#ffffa6'
-  value: 60%
+  value: 70%
 experience-title: Experience
 experience:
 - name: Junior UX Designer
