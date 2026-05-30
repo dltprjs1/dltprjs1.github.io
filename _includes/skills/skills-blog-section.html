@@ -1,48 +1,80 @@
+<!-- Custom CSS for Hover Animation -->
+<style>
+  .tech-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .tech-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08) !important;
+  }
+  .tech-badge {
+    transition: all 0.2s ease-in-out;
+    cursor: default;
+  }
+  .tech-badge:hover {
+    transform: translateY(-3px) scale(1.05);
+  }
+</style>
+
 <!-- Work Process -->
-<section class="section">
+<section class="section py-5 bg-light">
   <div class="container">
-    <div class="row justify-content-around">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-title">BACKEND</h2>
+    <div class="row justify-content-center">
+      
+      <!-- Section Header -->
+      <div class="col-lg-12 text-center mb-5">
+        <h2 class="section-title fw-bold">WORK PROCESS</h2>
+        <p class="text-muted">우리의 기술 스택과 작업 흐름</p>
       </div>
-      {% for Backend in site.data.settings.Backend-process %}
-      <div class="col-lg-1 col-md-4 text-center hover-shadow pt-3">
-        <h4 class="badge bg-primary text-white rounded-3 mb-1 px-3" style="
-    font-size: 17px;">{{ Backend.title }}</h4>
-      </div>
-      {% endfor %}
-    </div>
-  </div>
-</section>
 
-<section class="section">
-  <div class="container">
-    <div class="row justify-content-around">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-title">INFRASTRUCTURE</h2>
+      <!-- BACKEND Card -->
+      <div class="col-lg-10 mb-4">
+        <div class="tech-card bg-white p-4 rounded-4 shadow-sm border-0">
+          <h4 class="border-bottom pb-2 mb-4 text-primary fw-bold" style="font-size: 18px;">
+            💻 BACKEND
+          </h4>
+          <div class="d-flex flex-wrap gap-3 justify-content-start px-2">
+            {% for Backend in site.data.settings.Backend-process %}
+            <span class="tech-badge badge bg-primary bg-opacity-10 text-primary border border-primary px-4 py-2 rounded-pill shadow-sm" style="font-size: 15px; font-weight: 600;">
+              {{ Backend.title }}
+            </span>
+            {% endfor %}
+          </div>
+        </div>
       </div>
-      {% for Infra in site.data.settings.Infra-process %}
-      <div class="col-lg-1 col-md-4 text-center hover-shadow pt-3">
-        <h4 class="badge bg-success rounded-3 mb-1 px-3" style="
-    font-size: 17px;">{{ Infra.title }}</h4>
-      </div>
-      {% endfor %}
-    </div>
-  </div>
-</section>
 
-<section class="section">
-  <div class="container">
-    <div class="row justify-content-around">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-title">DATA</h2>
+      <!-- INFRASTRUCTURE Card -->
+      <div class="col-lg-10 mb-4">
+        <div class="tech-card bg-white p-4 rounded-4 shadow-sm border-0">
+          <h4 class="border-bottom pb-2 mb-4 text-success fw-bold" style="font-size: 18px;">
+            ☁️ INFRASTRUCTURE
+          </h4>
+          <div class="d-flex flex-wrap gap-3 justify-content-start px-2">
+            {% for Infra in site.data.settings.Infra-process %}
+            <span class="tech-badge badge bg-success bg-opacity-10 text-success border border-success px-4 py-2 rounded-pill shadow-sm" style="font-size: 15px; font-weight: 600;">
+              {{ Infra.title }}
+            </span>
+            {% endfor %}
+          </div>
+        </div>
       </div>
-      {% for Data in site.data.settings.Data-process %}
-      <div class="col-lg-1 col-md-4 text-center hover-shadow pt-3">
-        <h4 class="badge bg-info text-dark rounded-3 mb-1 px-3" style="
-    font-size: 17px;">{{ Data.title }}</h4>
+
+      <!-- DATA Card -->
+      <div class="col-lg-10 mb-4">
+        <div class="tech-card bg-white p-4 rounded-4 shadow-sm border-0">
+          <h4 class="border-bottom pb-2 mb-4 text-info fw-bold" style="font-size: 18px;">
+            📊 DATA
+          </h4>
+          <div class="d-flex flex-wrap gap-3 justify-content-start px-2">
+            {% for Data in site.data.settings.Data-process %}
+            <span class="tech-badge badge bg-info bg-opacity-10 text-info border border-info px-4 py-2 rounded-pill shadow-sm" style="font-size: 15px; font-weight: 600;">
+              {{ Data.title }}
+            </span>
+            {% endfor %}
+          </div>
+        </div>
       </div>
-      {% endfor %}
+
     </div>
   </div>
 </section>
