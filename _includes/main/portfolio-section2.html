@@ -7,27 +7,23 @@
     </div>
     <div class="row">
       <div class="col-12">
-        <div class="list-group" id="list-tab" role="tablist">
+        <div id="portfolio-accordion">
           {% for item in site.data.settings.portfolio-home-items %}
           {% assign idx = forloop.index %}
-          <a class="list-group-item list-group-item-action {% if forloop.index == 1 %}active{% endif %}"
-             id="list-item-{{ idx }}-list"
-             data-toggle="tab"
+
+          <a class="list-group-item list-group-item-action"
+             data-toggle="collapse"
              href="#list-item-{{ idx }}"
-             role="tab">
+             role="button">
             {{ item.contents }}
           </a>
-          {% endfor %}
-        </div>
 
-        <div class="tab-content mt-3">
-          {% for item in site.data.settings.portfolio-home-items %}
-          {% assign idx = forloop.index %}
-          <div class="tab-pane fade {% if forloop.index == 1 %}show active{% endif %}"
+          <div class="collapse {% if forloop.index == 1 %}show{% endif %}"
                id="list-item-{{ idx }}"
-               role="tabpanel">
+               data-parent="#portfolio-accordion">
             {{ item.contents }}
           </div>
+
           {% endfor %}
         </div>
       </div>
