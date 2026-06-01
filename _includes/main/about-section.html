@@ -1,40 +1,31 @@
 <!-- about -->
 <section class="section py-5 bg-light">
   <div class="container">
-    
-    <!-- 섹션의 컨텐츠들을 가로로 배치 (화면 크기에 따라 자동 줄바꿈) -->
     <div class="row justify-content-center">
-      {% for item in site.data.settings.blurb %}
-      <div class="col-lg-4 col-md-6 mb-4">
+      <!-- 중앙 정렬 및 최대 너비 고정 -->
+      <div class="col-lg-10">
         
-        <!-- 카드 디자인: 그림자(shadow-sm)와 모서리 둥글게(rounded) -->
-        <div class="card h-100 border-0 shadow-sm" style="border-radius: 12px; overflow: hidden;">
-          
-          <!-- 기존의 왼쪽 파란색 테두리 포인트 유지 -->
-          <div class="card-body p-4 p-lg-5 border-left border-primary bg-white d-flex flex-column" style="border-left-width: 5px !important;">
+        {% for item in site.data.settings.blurb %}
+        <!-- Card -->
+        <div class="card border-0 shadow-sm mb-5 border-primary" style="border-radius: 16px; border-left-width: 6px !important; border-left-style: solid;">
+          <div class="card-body p-4 p-md-5 bg-white" style="border-radius: 16px;">
             
-            <h4 class="font-weight-bold text-dark mb-3">
+            <!-- 제목 -->
+            <h3 class="font-weight-bold text-dark mb-4 pb-3" style="border-bottom: 2px solid #f0f2f5;">
               {{ item.blurb-title }}
-            </h4>
+            </h3>
             
-            <!-- 내용이 짧은 태그 형태라면 뱃지, 긴 문장이라면 일반 텍스트가 좋습니다. -->
-            <!-- 1. 뱃지 스타일을 유지하고 싶을 때 (짧은 단어 위주) -->
-            <div class="mt-auto">
-              <span class="badge badge-info px-3 py-2" style="font-size: 14px; border-radius: 20px;">
-                {{ item.blurb-content }}
-              </span>
-            </div>
-            
-            <!-- 2. 만약 blurb-content가 긴 문장이라면 위의 뱃지 대신 아래 코드를 사용하세요 -->
-            <!-- <p class="text-muted mb-0 mt-auto" style="font-size: 15px; line-height: 1.6;">{{ item.blurb-content }}</p> -->
+            <!-- 내용 (줄바꿈이 적용되도록 필터 추가) -->
+            <p class="text-secondary mb-0" style="font-size: 16.5px; line-height: 1.8; letter-spacing: -0.3px; word-break: keep-all;">
+              {{ item.blurb-content | newline_to_br }}
+            </p>
             
           </div>
         </div>
+        {% endfor %}
         
       </div>
-      {% endfor %}
     </div>
-    
   </div>
 </section>
 <!-- /about -->
