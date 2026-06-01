@@ -7,42 +7,22 @@
     </div>
     <div class="row">
       <div class="col-12">
-        <div id="portfolio-accordion">
-          {% for item in site.data.settings.portfolio-home-items %}
-          {% assign idx = forloop.index %}
-
-          <a class="list-group-item list-group-item-action d-flex justify-content-between align-items-center px-4 py-3"
-             data-toggle="collapse"
-             href="#list-item-{{ idx }}"
-             role="button"
-             style="font-size:14px; font-weight:500;">
-            {{ item.title }} - {{ item.summary }}
-            <div class="d-flex align-items-center" style="gap:12px;">
-              <small class="text-muted" style="font-size:14px;">{{ item.date }}</small>
-              <i class="ti ti-chevron-down" aria-hidden="true"></i>
-            </div>
-          </a>
-
-          <div class="collapse {% if forloop.index == 1 %}show{% endif %}"
-               id="list-item-{{ idx }}"
-               data-parent="#portfolio-accordion">
-            <div class="p-5 border-left border-primary" style="border-left-width:4px !important; min-height:320px;">
-              <div class="d-flex justify-content-between align-items-center mb-3">
-                <h5 class="font-weight-bold mb-0" style="font-size:20px;">{{ item.title }}</h5>
-                <span class="badge badge-info p-2" style="font-size:13px;">{{ item.team }}</span>
-              </div>
-              <p class="text-muted mb-3" style="font-size:14px;">{{ item.date }}</p>
-              <p class="text-muted mb-4" style="font-size:15px; line-height:1.8;">{{ item.contents }}</p>
-              <div class="d-flex flex-wrap" style="gap:10px;">
-                {% for tag in item.tags %}
-                <span class="badge badge-primary p-2" style="font-size:13px;">{{ tag }}</span>
-                {% endfor %}
-              </div>
-            </div>
+        {% for item in site.data.settings.portfolio-home-items %}
+        {% assign idx = forloop.index %}
+        <div class="p-5 border-left border-primary mb-3" style="border-left-width:4px !important; min-height:320px;">
+          <div class="d-flex justify-content-between align-items-center mb-3">
+            <h5 class="font-weight-bold mb-0" style="font-size:20px;">{{ item.title }} - {{ item.summary }}</h5>
+            <span class="badge badge-info p-2" style="font-size:13px;">{{ item.team }}</span>
           </div>
-
-          {% endfor %}
+          <p class="text-muted mb-3" style="font-size:14px;">{{ item.date }}</p>
+          <p class="text-muted mb-4" style="font-size:15px; line-height:1.8;">{{ item.contents }}</p>
+          <div class="d-flex flex-wrap" style="gap:10px;">
+            {% for tag in item.tags %}
+            <span class="badge badge-primary p-2" style="font-size:13px;">{{ tag }}</span>
+            {% endfor %}
+          </div>
         </div>
+        {% endfor %}
       </div>
     </div>
   </div>
