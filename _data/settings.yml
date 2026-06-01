@@ -168,7 +168,7 @@ portfolio-home-items:
   team: 토이 프로젝트 ( 1인 개발 )
   date: 2024.05.01 ~
   tags: [Python, Java, MSSQL, PostgreSQL, JPA, Mybatis, Windows Server, Linux, Docker Desktop, Socket, RestAPI, Qauth2, JWT, Pandas, SSH, DNS, DDNS]
-  contents: <p><b>Full-Cycle 매매 인프라 및 DB 파이프라인</b> Python 기반의 자동 매매 로직(Binance API)과 Java 백엔드를 Socket 통신으로 연동하고, 수백만 건의 실시간 거래 및 호가 데이터를 MSSQL에 가공·적재하는 데이터 파이프라인 구축 및 Docker 배포.</p><p><b>엔터프라이즈급 API 보안 및 인증 체계</b> Spring Security와 OAuth 2.0을 도입하여 관제 웹 접근 시 자체/소셜 로그인(카카오, 네이버) 기반의 인증 서버 구현. Access/Refresh Token(JWT) 체계를 통해 프론트엔드와 백엔드 간 API 통신 전 구간의 보안성 및 무결성 검증 로직 적용.</p><p><b>실시간 관제 대시보드</b> 보안 인증을 통과한 관리자가 실시간 주문 데이터와 자산 수익률 지표를 한눈에 파악할 수 있도록, React와 WebSocket을 활용한 반응형 웹 대시보드 시각화.</p>
+  contents: <p><b>Full-Cycle 매매 인프라 및 DB 파이프라인</b> Python 기반의 자동 매매 로직(Binance API)과 Java 백엔드를 Socket 통신으로 연동하고, 수백만 건의 실시간 거래 및 호가 데이터를 MSSQL에 가공·적재하는 데이터 파이프라인 구축 및 Docker 배포.</p><p><b>엔터프라이즈급 API 보안 및 인증 체계</b> Spring Security와 OAuth 2.0을 도입하여 관제 웹 접근 시 자체/소셜 로그인(카카오, 네이버) 기반의 인증 서버 구현. Access/Refresh Token(JWT) 체계를 통해 프론트엔드와 백엔드 간 API 통신 전 구간의 보안성 및 무결성 검증 로직 적용.</p><p><b>실시간 관제 대시보드</b> 보안 인증을 통과한 관리자가 실시간 주문 데이터와 자산 수익률 지표를 한눈에 파악할 수 있도록, React와 WebSocket을 활용한 반응형 웹 대시보드 시각화.</p><p><b>Server Monitoring</b> Zabbix Server/Proxy 배포 및 에이전트(SNMP 등) 연동을 통해 모니터링 환경을 구축. DNS 및 DDNS 설정을 적용하여 대시보드의 외부 접근성을 확보하고, SSH 기반의 안전한 원격 관리 환경을 구성. 특정 어플리케이션 에러 발생 시 Shell Script가 트리거되어 자동 복구되도록 시스템 운영을 자동화</p>
 
 - title: OCR 활용 실시간 화면 제어 시스템
   summary: 토이 프로젝트 / MSS 화면 인식 / OpenCV 이미지 전-후처리 타겟 인식(SIFT) / OCR 한글 인식 및 텔레그램 알림 서비스 / 컴퓨터 마우스 및 키보드 제어
