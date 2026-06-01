@@ -1,20 +1,40 @@
 <!-- about -->
-<section class="section">
+<section class="section py-5 bg-light">
   <div class="container">
-    <div class="row">
-      <div class="col-lg-10 mx-auto text-center">
-        <p class="font-secondary paragraph-lg text-dark">{{ site.data.settings.blurb }}</p>
-        <a href="{{ site.data.settings.blurb-btn-link }}" class="AboutKnowMore btn btn-transparent">{{ site.data.settings.blurb-btn-name }}</a>
-      </div>
+    
+    <!-- 섹션의 컨텐츠들을 가로로 배치 (화면 크기에 따라 자동 줄바꿈) -->
+    <div class="row justify-content-center">
       {% for item in site.data.settings.blurb %}
-        <div class="p-5 border-left border-primary mb-3" style="border-left-width:4px !important; min-height:320px;">
-          <div class="d-flex justify-content-between align-items-center mb-3">
-            <h5 class="font-weight-bold mb-0" style="font-size:20px;">{{ item.blurb-title }}</h5>
-            <span class="badge badge-info p-2" style="font-size:13px;">{{ item.blurb-content }}</span>
+      <div class="col-lg-4 col-md-6 mb-4">
+        
+        <!-- 카드 디자인: 그림자(shadow-sm)와 모서리 둥글게(rounded) -->
+        <div class="card h-100 border-0 shadow-sm" style="border-radius: 12px; overflow: hidden;">
+          
+          <!-- 기존의 왼쪽 파란색 테두리 포인트 유지 -->
+          <div class="card-body p-4 p-lg-5 border-left border-primary bg-white d-flex flex-column" style="border-left-width: 5px !important;">
+            
+            <h4 class="font-weight-bold text-dark mb-3">
+              {{ item.blurb-title }}
+            </h4>
+            
+            <!-- 내용이 짧은 태그 형태라면 뱃지, 긴 문장이라면 일반 텍스트가 좋습니다. -->
+            <!-- 1. 뱃지 스타일을 유지하고 싶을 때 (짧은 단어 위주) -->
+            <div class="mt-auto">
+              <span class="badge badge-info px-3 py-2" style="font-size: 14px; border-radius: 20px;">
+                {{ item.blurb-content }}
+              </span>
+            </div>
+            
+            <!-- 2. 만약 blurb-content가 긴 문장이라면 위의 뱃지 대신 아래 코드를 사용하세요 -->
+            <!-- <p class="text-muted mb-0 mt-auto" style="font-size: 15px; line-height: 1.6;">{{ item.blurb-content }}</p> -->
+            
           </div>
         </div>
-        {% endfor %}
+        
+      </div>
+      {% endfor %}
     </div>
+    
   </div>
 </section>
 <!-- /about -->
