@@ -4,18 +4,9 @@
     <div class="row">
       <!-- position-relative와 zindex-1을 추가하여 사진이 장식(나뭇잎 등) 위로 올라오게 합니다. -->
       <div class="col-lg-11 mx-auto position-relative zindex-1">
-        
-        <!-- 🌟 프로필 사진 영역 추가 🌟 -->
         <div class="mb-4">
-          <!-- 
-            [이미지 경로 설정 안내] 
-            실제 증명사진 경로로 수정해주세요 (예: /assets/images/profile.jpg) 
-            테두리를 반투명한 흰색(rgba)으로 설정해 배경과 자연스럽게 어울리게 했습니다.
-          -->
           <img src="{{ site.baseurl }}/assets/images/about/이세건.jpg" alt="Profile Picture" class="img-fluid rounded-circle shadow-lg" style="width: 180px; height: 180px; object-fit: cover; border: 5px solid rgba(255, 255, 255, 0.3);">
         </div>
-        <!-- 🌟 /프로필 사진 영역 종료 🌟 -->
-
         <h1 class="text-white font-tertiary">{{ site.data.settings.hero.hero-title }}</h1>
       </div>
     </div>
