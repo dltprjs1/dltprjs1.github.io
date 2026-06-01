@@ -6,6 +6,14 @@
         <p class="font-secondary paragraph-lg text-dark">{{ site.data.settings.blurb }}</p>
         <a href="{{ site.data.settings.blurb-btn-link }}" class="AboutKnowMore btn btn-transparent">{{ site.data.settings.blurb-btn-name }}</a>
       </div>
+      {% for item in site.data.settings.blurb %}
+        <div class="p-5 border-left border-primary mb-3" style="border-left-width:4px !important; min-height:320px;">
+          <div class="d-flex justify-content-between align-items-center mb-3">
+            <h5 class="font-weight-bold mb-0" style="font-size:20px;">{{ item.title }}</h5>
+            <span class="badge badge-info p-2" style="font-size:13px;">{{ item.content }}</span>
+          </div>
+        </div>
+        {% endfor %}
     </div>
   </div>
 </section>
