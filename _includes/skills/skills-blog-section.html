@@ -1,48 +1,84 @@
-<!-- skills -->
+<style>
+  .tech-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .tech-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08) !important;
+  }
+  .tech-badge {
+    transition: all 0.2s ease-in-out;
+    cursor: default;
+  }
+  .tech-badge:hover {
+    transform: translateY(-3px) scale(1.05);
+  }
+</style>
+
+<!-- Skills / Work Process -->
 <section class="section py-5 bg-light">
   <div class="container">
     
     <div class="row">
       <div class="col-12 text-center mb-5">
-        <h2 class="section-title font-weight-bold text-dark">{{ site.data.settings.skills-title }}</h2>
+        <h2 class="section-title font-weight-bold text-dark">Skills</h2>
       </div>
     </div>
     
     <div class="row justify-content-center">
-      {% for skill in site.data.settings.skills %}
-      <!-- 3단 그리드 유지 (PC: 3개, 태블릿: 2개, 모바일: 1개) -->
-      <div class="col-lg-4 col-md-6 mb-4">
+      <!-- About, Portfolio 섹션과 동일한 최대 너비(col-lg-10) 적용 -->
+      <div class="col-lg-12">
         
-        <!-- Card: 다른 섹션과 완벽하게 통일된 둥근 모서리, 그림자, 왼쪽 포인트 테두리 -->
-        <div class="card h-100 border-0 shadow-sm border-primary" style="border-radius: 16px; border-left-width: 6px !important; border-left-style: solid; overflow: hidden;">
-          
-          <!-- 기존 wave 애니메이션 래퍼 (카드 둥근 모서리에 맞춰 넘치지 않게 오버플로우 처리됨) -->
-          <div class="position-relative progress-wrapper" data-color="{{ skill.color }}">
-            <div class="wave" data-progress="{{ skill.value }}"></div>
+        <!-- BACKEND Card -->
+        <div class="card tech-card border-0 shadow-sm mb-4 border-primary" style="border-radius: 16px; border-left-width: 6px !important; border-left-style: solid;">
+          <div class="card-body p-4 p-md-5 bg-white" style="border-radius: 16px;">
+            <h3 class="font-weight-bold text-dark mb-4 pb-3" style="border-bottom: 2px solid #f0f2f5;">
+              <span class="text-primary mr-2"><i class="fas fa-server"></i></span> BACKEND
+            </h3>
+            <div class="d-flex flex-wrap" style="gap: 10px;">
+              {% for Backend in site.data.settings.Backend-process %}
+              <span class="tech-badge badge bg-white text-primary border border-primary px-3 py-2" style="font-size: 14px; border-radius: 20px;">
+                {{ Backend.title }}
+              </span>
+              {% endfor %}
+            </div>
           </div>
-          
-          <!-- 카드 하단 텍스트 영역 (기존 card-footer 대신 통일성 있게 card-body로 변경) -->
-          <div class="card-body bg-white text-center p-4 d-flex flex-column justify-content-center">
-            <h4 class="font-weight-bold text-dark mb-0" style="font-size: 18px;">
-              {{ skill.name }} 
-              <span class="text-primary ml-1" style="font-size: 16px;">({{ skill.value }})</span>
-            </h4>
-          </div>
-          
         </div>
-      </div>
-      {% endfor %}
-    </div>
-    
-    <!-- Know more 버튼 디자인: 둥글고 세련된 아웃라인 스타일로 통일감 부여 -->
-    <div class="row mt-4">
-      <div class="col-12 text-center">
-        <a href="{{ site.data.settings.blog-btn-link }}" class="SkillKnowMore btn btn-outline-primary px-4 py-2 font-weight-bold shadow-sm" style="border-radius: 30px;">
-          Know more
-        </a>
+
+        <!-- INFRASTRUCTURE Card -->
+        <div class="card tech-card border-0 shadow-sm mb-4 border-success" style="border-radius: 16px; border-left-width: 6px !important; border-left-style: solid;">
+          <div class="card-body p-4 p-md-5 bg-white" style="border-radius: 16px;">
+            <h3 class="font-weight-bold text-dark mb-4 pb-3" style="border-bottom: 2px solid #f0f2f5;">
+              <span class="text-success mr-2"><i class="fas fa-network-wired"></i></span> INFRASTRUCTURE
+            </h3>
+            <div class="d-flex flex-wrap" style="gap: 10px;">
+              {% for Infra in site.data.settings.Infra-process %}
+              <span class="tech-badge badge bg-white text-success border border-success px-3 py-2" style="font-size: 14px; border-radius: 20px;">
+                {{ Infra.title }}
+              </span>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+
+        <!-- DATA Card -->
+        <div class="card tech-card border-0 shadow-sm mb-4 border-info" style="border-radius: 16px; border-left-width: 6px !important; border-left-style: solid;">
+          <div class="card-body p-4 p-md-5 bg-white" style="border-radius: 16px;">
+            <h3 class="font-weight-bold text-dark mb-4 pb-3" style="border-bottom: 2px solid #f0f2f5;">
+              <span class="text-info mr-2"><i class="fas fa-database"></i></span> DATA
+            </h3>
+            <div class="d-flex flex-wrap" style="gap: 10px;">
+              {% for Data in site.data.settings.Data-process %}
+              <span class="tech-badge badge bg-white text-info border border-info px-3 py-2" style="font-size: 14px; border-radius: 20px;">
+                {{ Data.title }}
+              </span>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
 
   </div>
 </section>
-<!-- /skills -->
