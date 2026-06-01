@@ -127,42 +127,42 @@ certification:
 
 portfolio-home-items:
 - title: <b>이커머스 유지보수</b>
-  summary: 실무 프로젝트 / 온오프라인 쿠폰 연동 / 사전예약 서비스 / O2O
+  summary: <p>실무 프로젝트 / 온오프라인 쿠폰 연동 / 사전예약 서비스 / O2O</p>
   type: 실무 프로젝트 ( 에이샵 )
   date: 2024.09.24 ~
   tags: [Node.js, NestJS, ERP(Enterprise Browser) API, O2O, AWS EC2, Jenkins, Docker, MySQL]
   contents: 오프라인 매장 제품 별 QRScan으로 OneScan 페이지 개발 쿠폰 연동(온라인 = 오프라인)서비스, 오프라인 전용 NPI(New Product Introduce)제품 사전예약 서비스, 이커머스 쇼핑몰 UI/UX 개선
 
 - title: <b>고객 행동 데이터 분석 인사이트 제공</b>
-  summary: 실무 프로젝트 / 고객 행동 데이터 기반 이커머스 Traffic, Conversion Funnel, Cohort, Segments, AARRR 마케팅 인사이트 데이터
+  summary: <p>실무 프로젝트 / 고객 행동 데이터 기반 이커머스 Traffic, Conversion Funnel, Cohort, Segments, AARRR 마케팅 인사이트 데이터</p>
   type: 실무 프로젝트 ( 에이샵 )
   date: 2024.09.24 ~
   tags: [Saleforce CDP, GA4, BigQuery, Tableau, Python, Pandas]
   contents: OneScan Traffic(PV,UV,SCAN), OneLine Traffic, Conversion Funnel, Cohort, Segments, AARRR 인사이트 쿼리 구축
 
 - title: <b>POS/무인포스 실시간 관제 및 CRM 연동 시스템</b>
-  summary: 실무 프로젝트 / 실시간 관제 소켓 서버 / 소켓 클라이언트 / WebSocket 관제 웹 페이지 / CRM 연동 운영 자동화
+  summary: <p>실무 프로젝트 / 실시간 관제 소켓 서버 / 소켓 클라이언트 / WebSocket 관제 웹 페이지 / CRM 연동 운영 자동화</p>
   type: 실무 프로젝트 ( 넷틴스 )
   date: 2023.03 ~ 2024.03
   tags: [Java, Socket, WebSocket, Mybatis, MSSQL, Delphi, C++]
   contents: 실시간 모니터링 서버 설계 및 구축, POS 프로그램 소켓 클라이언트 구축, 인덱스 활용 MSSQL 스키마 설계, 실시간 관제 대시보드 WAS 개발, CRM 연동 운영 자동화
 
 - title: <b>알리페이 VAN사 결제 서비스 연동</b>
-  summary: 실무 프로젝트 / VAN사 알리페이 결제 서비스 연동 / 결제 내역 및 영수 프로세스 개발
+  summary: <p>실무 프로젝트 / VAN사 알리페이 결제 서비스 연동 / 결제 내역 및 영수 프로세스 개발</p>
   type: 실무 프로젝트 ( 넷틴스 )
   date: 2023.10 ~ 2023.12
   tags: Delphi, Epson Print
   contents: VAN 사 알리페이 결제 서비스 연동, 결제 내역 및 영수 프로세스 개발
 
 - title: <b>자동 매매 풀 서비스 개발 (+ Zabbix 모니터링)</b>
-  summary: 토이 프로젝트 / 자동매매 / 데이터 파이프라인 Socket 서버 / 실시간 데이터 시각화 웹페이지 / Oauth2.0 / JWT 인증 서비스 / Zabbix 서버 모니터링 및 자동화
+  summary: <p>토이 프로젝트 / 자동매매 / 데이터 파이프라인 Socket 서버 / 실시간 데이터 시각화 웹페이지 / Oauth2.0 / JWT 인증 서비스 / Zabbix 서버 모니터링 및 자동화</p>
   team: 토이 프로젝트 ( 1인 개발 )
   date: 2024.05.01 ~
   tags: [Python, Java, MSSQL, PostgreSQL, JPA, Mybatis, Windows Server, Linux, Docker Desktop, Socket, RestAPI, Qauth2, JWT, Pandas, SSH, DNS, DDNS]
   contents: 자동매매 , 데이터 파이프라인 Socket 서버, 실시간 데이터 시각화 WAS(Oauth2.0 로그인 및 인증 프로세스), Zabbix 서버 모니터링 및 자동화
 
 - title: <b>OCR 활용 실시간 화면 제어 시스템</b>
-  summary: 토이 프로젝트 / MSS 화면 인식 / OpenCV 이미지 전-후처리 타겟 인식(SIFT) / OCR 한글 인식 및 텔레그램 알림 서비스 / 컴퓨터 마우스 및 키보드 제어
+  summary: <p>토이 프로젝트 / MSS 화면 인식 / OpenCV 이미지 전-후처리 타겟 인식(SIFT) / OCR 한글 인식 및 텔레그램 알림 서비스 / 컴퓨터 마우스 및 키보드 제어</p>
   team: 토이 프로젝트 ( 1인 개발 )
   date: 2025.06 ~ 2026.01
   tags: Python, OpenCV, OCR, YOLO_V6, MSS, SIFT, PyautoGUI
