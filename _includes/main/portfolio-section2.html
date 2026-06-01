@@ -14,7 +14,7 @@
              data-toggle="collapse"
              href="#list-item-{{ idx }}"
              role="button">
-            {{ item.contents }}
+            {{ item.title }}
           </a>
           <div class="collapse {% if forloop.index == 1 %}show{% endif %}"
                id="list-item-{{ idx }}"
@@ -28,6 +28,7 @@
                 <span class="badge badge-primary mr-1 mb-1">{{ tag }}</span>
                 {% endfor %}
               </div>
+              <h5 class="font-weight-bold">{{ item.contents }}</h5>
             </div>
           </div>
           {% endfor %}
