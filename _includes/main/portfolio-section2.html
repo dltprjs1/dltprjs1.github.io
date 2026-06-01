@@ -6,7 +6,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-4">
+      <div class="col-12">
         <div class="list-group" id="list-tab" role="tablist">
           {% for item in site.data.settings.portfolio-home-items %}
           {% assign idx = forloop.index %}
@@ -18,18 +18,14 @@
              aria-controls="list-item-{{ idx }}">
             {{ item.contents }}
           </a>
-          {% endfor %}
-        </div>
-      </div>
-      <div class="col-8">
-        <div class="tab-content" id="nav-tabContent">
-          {% for item in site.data.settings.portfolio-home-items %}
-          {% assign idx = forloop.index %}
-          <div class="tab-pane fade {% if forloop.first %}show active{% endif %}"
-               id="list-item-{{ idx }}"
-               role="tabpanel"
-               aria-labelledby="list-item-{{ idx }}-list">
-            {{ item.contents }}
+          <div class="tab-content" id="nav-tabContent">
+            {% assign idx = forloop.index %}
+            <div class="tab-pane fade {% if forloop.first %}show active{% endif %}"
+                 id="list-item-{{ idx }}"
+                 role="tabpanel"
+                 aria-labelledby="list-item-{{ idx }}-list">
+              {{ item.contents }}
+            </div>
           </div>
           {% endfor %}
         </div>
