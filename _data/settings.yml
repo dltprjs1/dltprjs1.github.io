@@ -138,7 +138,7 @@ portfolio-home-items:
   team: 실무 프로젝트 ( 에이샵 )
   date: 2024.09.24 ~
   tags: [Saleforce CDP, BigQuery, Tableau, Python, Pandas]
-  contents: <p>이커머스 전 페이지에 고객 행동 데이터 기반 CDP 스크립트를 심어 사용자 이벤트 추적 환경 커스터마이징.</p> <p>수집된 데이터를 BigQuery와 연동하고 Tableau로를 활용하여 OneScan Traffic(PV,UV,SCAN), OneLine Traffic, Conversion Funnel, Cohort, Segments, AARRR 등 비즈니스 대시보드 구축 및 데이터 추출 쿼리 구축.</p>
+  contents: <p>이커머스 전 페이지에 고객 행동 데이터 기반 CDP 스크립트를 심어 사용자 이벤트 추적 환경 커스터마이징.</p><p>수집된 데이터를 BigQuery와 연동하고 Tableau로를 활용하여 OneScan Traffic(PV,UV,SCAN), OneLine Traffic, Conversion Funnel, Cohort, Segments, AARRR 등 비즈니스 대시보드 구축 및 데이터 추출 쿼리 구축.</p>
 
 - title: POS/무인포스 실시간 관제 및 CRM 연동 시스템
   summary: 실무 프로젝트 / 실시간 관제 소켓 서버 / 소켓 클라이언트 / WebSocket 관제 웹 페이지 / CRM 연동 운영 자동화
