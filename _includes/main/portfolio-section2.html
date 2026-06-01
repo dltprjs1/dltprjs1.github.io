@@ -10,21 +10,23 @@
         <div class="list-group" id="list-tab" role="tablist">
           {% for item in site.data.settings.portfolio-home-items %}
           {% assign idx = forloop.index %}
-          <a class="list-group-item list-group-item-action {% if forloop.first %}active{% endif %}"
+          <a class="list-group-item list-group-item-action {% if forloop.index == 1 %}active{% endif %}"
              id="list-item-{{ idx }}-list"
-             data-toggle="list"
+             data-toggle="tab"
              href="#list-item-{{ idx }}"
-             role="tab"
-             aria-controls="list-item-{{ idx }}">
+             role="tab">
             {{ item.contents }}
           </a>
-          <div class="tab-content" id="nav-tabContent">
-            {% assign idx = forloop.index %}
-            <div class="tab-pane fade {% if forloop.first %}show active{% endif %}"
-                 id="list-item-{{ idx }}"
-                 role="tabpanel">
-              {{ item.contents }}
-            </div>
+          {% endfor %}
+        </div>
+
+        <div class="tab-content mt-3">
+          {% for item in site.data.settings.portfolio-home-items %}
+          {% assign idx = forloop.index %}
+          <div class="tab-pane fade {% if forloop.index == 1 %}show active{% endif %}"
+               id="list-item-{{ idx }}"
+               role="tabpanel">
+            {{ item.contents }}
           </div>
           {% endfor %}
         </div>
