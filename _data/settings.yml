@@ -151,7 +151,7 @@ portfolio-home-items:
   summary: 실무 프로젝트 / VAN사 알리페이 결제 서비스 연동 / 결제 내역 및 영수 프로세스 개발
   team: 실무 프로젝트 ( 넷틴스 )
   date: 2023.10 ~ 2023.12
-  tags: Delphi, Epson Print
+  tags: [Delphi, Epson Print]
   contents: <p>VAN사 모듈 기반 알리페이 결제/취소 및 영수증 처리 전문 통신 로직 구현. 결제기기 연동 상태를 체크하고 장애 시 자동 재연동 및 로그를 기록하는 안정화 로직 구축.</p>
 
 - title: 자동 매매 풀 서비스 개발 (+ Zabbix 모니터링)
@@ -165,7 +165,7 @@ portfolio-home-items:
   summary: <p>토이 프로젝트 / MSS 화면 인식 / OpenCV 이미지 전-후처리 타겟 인식(SIFT) / OCR 한글 인식 및 텔레그램 알림 서비스 / 컴퓨터 마우스 및 키보드 제어</p>
   team: 토이 프로젝트 ( 1인 개발 )
   date: 2025.06 ~ 2026.01
-  tags: Python, OpenCV, OCR, YOLO_V6, MSS, SIFT, PyautoGUI
+  tags: [Python, OpenCV, OCR, YOLO_V6, MSS, SIFT, PyautoGUI]
   contents: MSS 화면 인식, OpenCV 전-후처리 타겟 인식, OCR 한글 인식, 컴퓨터 마우스 및 키보드 제어
 
 portfolio-label:
