@@ -127,42 +127,31 @@ certification:
 
 portfolio-home-items:
 
-- image: assets/images/portfolio/Oauth2.png
+- title: Oauth2.0 로그인 인증 및 백엔드 API  JWT 인증 프로세스 구축
+  image: assets/images/portfolio/Oauth2.png
   url: '/oauth2login'
   contents: <h4 class="fw-bold ui-serif">Oauth2 로그인</h4> 2024.05.01 ~  <br> 1인 개발 <br> Java, Node.js, React, JWT, Qauth2, Spring Security 
 
-- image: assets/images/portfolio/Zabbix_monitoring_Main.png
+- title: 자빅스 모니터링 서버 구축 및 클라이언트 연동
+  image: assets/images/portfolio/Zabbix_monitoring_Main.png
   url: '/zabbixmonitoring'
   contents: <h4 class="fw-bold ui-serif">자빅스 모니터링 모듈</h4> 2024.05.01 ~  <br> 1인 개발 <br> Linux, Shell Script, PostgreSQL, Monitoring
 
-- image: assets/images/portfolio/AutoTrading_Web.png
+- title: 웹소켓 실시간 데이터 통신 WAS 개발
+  image: assets/images/portfolio/AutoTrading_Web.png
   url: '/autotradingweb'
   contents: <h4 class="fw-bold ui-serif">데이터 실시간 시각화 웹 페이지</h4> 2024.03.01 ~ 2024.03.11 <br> 1인 개발 <br> Java, Docker, Springboot, WebSocket
    
-- image: assets/images/portfolio/Docker_AutoServer.png
+- title: 자동 매매 데이터 소켓 라이브러리 활용 파이프라인 서버 구축
+  image: assets/images/portfolio/Docker_AutoServer.png
   url: '/autotradingserver'
   contents: <h4 class="fw-bold ui-serif">자동 선물 데이터 처리 서버</h4> 2024.01.27 ~ 2024.02.15 <br> 1인 개발 <br> Java, Docker, Server, mybatis, Socket
 
-- image: assets/images/portfolio/AutoTrading_Server.png
+- title: 자동 매매 프로그램 개발
+  image: assets/images/portfolio/AutoTrading_Server.png
   url: '/autotradingprogram'
   contents: <h4 class="fw-bold ui-serif">자동 선물 프로그램</h4> 2024.01.02 ~ 2024.01.26 <br> 1인 개발 <br> Python, Selenium, Socket, 자동화  
  
-- image: assets/images/portfolio/portfolio_Main.png
-  url: '/portfol'
-  contents: <h4 class="fw-bold ui-serif">포트폴리오</h4> 2023.02.15 ~ <br> 1인 개발 <br> html, 자기소개서, 포트폴리오
-  
-- image: assets/images/portfolio/SangGYM_Main.png
-  url: '/SangGym'
-  contents: <h4 class="fw-bold ui-serif">헬스장 홈페이지</h4> 2023.02 ~ 2023.02 <br> 1인 개발 <br> JavaScript, bootstrap, Frontend
-  
-- image: assets/images/portfolio/FinalProject_Main.png
-  url: '/cowork'
-  contents: <h4 class="fw-bold ui-serif">cowork 그룹웨어</h4> 2022.12 ~ 2022.12 <br> 5인 개발 <br> Java, maven, mybatis, Backend 
-  
-- image: assets/images/portfolio/SemiProject_Main.png
-  url: '/challengers'
-  contents: <h4 class="fw-bold ui-serif">챌린저스 웹 어플리케이션</h4> 2022.10 ~ 2022.10 <br> 5인 개발 <br>Java,maven, Admin, Backend
-
 portfolio-label:
 - title: JAVA
   type: JAVA
