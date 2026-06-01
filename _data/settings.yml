@@ -125,33 +125,43 @@ certification:
   data: 2026.06
   organization: 한국데이터산업진흥원
 
-portfolio-home-items:
+portfolio-home-title:
+- title: 이커머스 유지보수
+  type: 실무 프로젝트 ( 에이샵 )
+  date: 2024.09.24 ~
+  tags: [Node.js, NestJS, ERP(Enterprise Browser) API, O2O, AWS EC2, Jenkins, Docker, MySQL]
+  contents: 오프라인 매장 제품 별 QRScan으로 OneScan 페이지 개발 쿠폰 연동(온라인 = 오프라인)서비스, 오프라인 전용 NPI(New Product Introduce)제품 사전예약 서비스, 이커머스 쇼핑몰 UI/UX 개선
 
-- title: Oauth2.0 로그인 인증 및 백엔드 API  JWT 인증 프로세스 구축
-  image: assets/images/portfolio/Oauth2.png
-  url: '/oauth2login'
-  contents: <h4 class="fw-bold ui-serif">Oauth2 로그인</h4> 2024.05.01 ~  <br> 1인 개발 <br> Java, Node.js, React, JWT, Qauth2, Spring Security 
+- title: 고객 행동 데이터 분석 인사이트 제공 
+  type: 실무 프로젝트 ( 에이샵 )
+  date: 2024.09.24 ~
+  tags: [Saleforce CDP, GA4, BigQuery, Tableau, Python, Pandas]
+  contents: OneScan Traffic(PV,UV,SCAN), OneLine Traffic, Conversion Funnel, Cohort, Segments, AARRR 인사이트 쿼리 구축
 
-- title: 자빅스 모니터링 서버 구축 및 클라이언트 연동
-  image: assets/images/portfolio/Zabbix_monitoring_Main.png
-  url: '/zabbixmonitoring'
-  contents: <h4 class="fw-bold ui-serif">자빅스 모니터링 모듈</h4> 2024.05.01 ~  <br> 1인 개발 <br> Linux, Shell Script, PostgreSQL, Monitoring
+- title: POS/무인포스 실시간 관제 및 CRM 연동 시스템
+  type: 실무 프로젝트 ( 넷틴스 )
+  date: 2023.03 ~ 2024.03
+  tags: [Java, Socket, WebSocket, Mybatis, MSSQL, Delphi, C++]
+  contents: 실시간 모니터링 서버 설계 및 구축, POS 프로그램 소켓 클라이언트 구축, 인덱스 활용 MSSQL 스키마 설계, 실시간 관제 대시보드 WAS 개발, CRM 연동 운영 자동화
 
-- title: 웹소켓 실시간 데이터 통신 WAS 개발
-  image: assets/images/portfolio/AutoTrading_Web.png
-  url: '/autotradingweb'
-  contents: <h4 class="fw-bold ui-serif">데이터 실시간 시각화 웹 페이지</h4> 2024.03.01 ~ 2024.03.11 <br> 1인 개발 <br> Java, Docker, Springboot, WebSocket
-   
-- title: 자동 매매 데이터 소켓 라이브러리 활용 파이프라인 서버 구축
-  image: assets/images/portfolio/Docker_AutoServer.png
-  url: '/autotradingserver'
-  contents: <h4 class="fw-bold ui-serif">자동 선물 데이터 처리 서버</h4> 2024.01.27 ~ 2024.02.15 <br> 1인 개발 <br> Java, Docker, Server, mybatis, Socket
+- title: 알리페이 VAN사 결제 서비스 연동
+  type: 실무 프로젝트 ( 넷틴스 )
+  date: 2023.10 ~ 2023.12
+  tags: Delphi, Epson Print
+  contents: VAN사 알리페이 결제 서비스 연동, 결제 내역 및 영수 프로세스 개발
 
-- title: 자동 매매 프로그램 개발
-  image: assets/images/portfolio/AutoTrading_Server.png
-  url: '/autotradingprogram'
-  contents: <h4 class="fw-bold ui-serif">자동 선물 프로그램</h4> 2024.01.02 ~ 2024.01.26 <br> 1인 개발 <br> Python, Selenium, Socket, 자동화  
- 
+- title: 자동 매매 풀 서비스 개발 (+ Zabbix 모니터링)
+  team: 토이 프로젝트 ( 1인 개발 )
+  date: 2024.05.01 ~
+  tags: [Python, Java, MSSQL, PostgreSQL, JPA, Mybatis, Windows Server, Linux, Docker Desktop, Socket, RestAPI, Qauth2, JWT, Pandas, SSH, DNS, DDNS]
+  contents: 자동매매 , 데이터 파이프라인 Socket 서버, 실시간 데이터 시각화 WAS(Oauth2.0 로그인 및 인증 프로세스), Zabbix 서버 모니터링 및 자동화
+
+- title: OCR 활용 실시간 화면 제어 시스템
+  team: 토이 프로젝트 ( 1인 개발 )
+  date: 2025.06 ~ 2026.01
+  tags: Python, OpenCV, OCR, YOLO_V6, MSS, SIFT, PyautoGUI
+  contents: MSS 화면 인식, OpenCV 전-후처리 타겟 인식, OCR 한글 인식, 컴퓨터 마우스 및 키보드 제어
+
 portfolio-label:
 - title: JAVA
   type: JAVA
@@ -159,7 +169,6 @@ portfolio-label:
   type: PYTHON
 
 portfolio-items:
-
 - image: assets/images/portfolio/Oauth2.png
   url: '/Oauth2Login'
   contents: <h4 class="fw-bold ui-serif">Oauth2 로그인</h4> 2024.05.01 ~  <br> 1인 개발 <br> Java, Node.js, React, JWT, Qauth2, Spring Security 
