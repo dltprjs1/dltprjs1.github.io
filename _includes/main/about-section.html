@@ -9,4 +9,25 @@
     </div>
   </div>
 </section>
+
+<section class="section pt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        {{ content }}
+      </div>
+      <div class="col-md-4 text-center drag-lg-top">
+        <div class="shadow-down mb-4">
+          <img src="{{ site.baseurl }}/{{ page.image }}" alt="{{ page.author }}" class="img-fluid w-100 rounded-lg border-thick border-white">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /about -->
+{% include about/work-process-section.html %}
+
+{% include about/education-section.html %}
+
+{% include about/certificate-section.html %}
 <!-- /about -->
