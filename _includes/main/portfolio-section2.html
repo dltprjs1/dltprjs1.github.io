@@ -5,8 +5,9 @@
         <h2 class="section-title">Portfolio</h2>
       </div>
     </div>
-    <div class="row">
-      <div class="col-12">
+    <div class="row justify-content-center">
+      <!-- 중앙 정렬 및 최대 너비 고정 -->
+      <div class="col-lg-12">
          {% for item in site.data.settings.portfolio-home-items %}
         {% assign idx = forloop.index %}
         <div class="p-5 border-left border-primary mb-3" style="border-left-width:4px !important; min-height:320px;">
