@@ -10,27 +10,37 @@
         <div id="portfolio-accordion">
           {% for item in site.data.settings.portfolio-home-items %}
           {% assign idx = forloop.index %}
-          <a class="list-group-item list-group-item-action"
+
+          <a class="list-group-item list-group-item-action d-flex justify-content-between align-items-center px-4 py-3"
              data-toggle="collapse"
              href="#list-item-{{ idx }}"
-             role="button">
-            {{ item.title }}
+             role="button"
+             style="font-size:18px; font-weight:500;">
+            {{ item.summary }}
+            <div class="d-flex align-items-center" style="gap:12px;">
+              <small class="text-muted" style="font-size:14px;">{{ item.date }}</small>
+              <i class="ti ti-chevron-down" aria-hidden="true"></i>
+            </div>
           </a>
+
           <div class="collapse {% if forloop.index == 1 %}show{% endif %}"
                id="list-item-{{ idx }}"
                data-parent="#portfolio-accordion">
-            <div class="p-3 border-left border-primary ml-2">
-              <h5 class="font-weight-bold">{{ item.title }}</h5>
-              <p class="text-muted mb-1">{{ item.date }}</p>
-              <p class="text-muted mb-2">{{ item.team }}</p>
-              <div>
+            <div class="p-5 border-left border-primary" style="border-left-width:4px !important; min-height:320px;">
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <h5 class="font-weight-bold mb-0" style="font-size:20px;">{{ item.title }}</h5>
+                <span class="badge badge-info p-2" style="font-size:13px;">{{ item.team }}</span>
+              </div>
+              <p class="text-muted mb-3" style="font-size:14px;">{{ item.date }}</p>
+              <p class="text-muted mb-4" style="font-size:15px; line-height:1.8;">{{ item.contents }}</p>
+              <div class="d-flex flex-wrap" style="gap:10px;">
                 {% for tag in item.tags %}
-                <span class="badge badge-primary mr-1 mb-1">{{ tag }}</span>
+                <span class="badge badge-primary p-2" style="font-size:13px;">{{ tag }}</span>
                 {% endfor %}
               </div>
-              <h5 class="font-weight-bold">{{ item.contents }}</h5>
             </div>
           </div>
+
           {% endfor %}
         </div>
       </div>
