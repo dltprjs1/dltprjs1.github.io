@@ -1,5 +1,5 @@
 ---
-layout: about0-section
+layout: about-section
 title: About Me
 image: assets/images/about/이세건.jpg
 ---
