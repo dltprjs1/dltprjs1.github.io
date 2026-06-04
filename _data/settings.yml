@@ -8,13 +8,13 @@ address: 서울특별시 금천구 독산동 940-3
 copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
 menu:
 - name: About
-  link: /about
+  link: about
 - name: skills
-  link: /blog
+  link: skills
 - name: Portfolio
-  link: /portfolio
+  link: portfolio
 - name: Contact
-  link: /contact
+  link: contact
 google-analytics: null
 hero:
   hero-title: 백엔드 인프라 데이터 <br> 융합형 엔지니어 <br> 이세건
